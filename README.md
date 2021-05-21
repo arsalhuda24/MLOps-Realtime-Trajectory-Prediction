@@ -22,7 +22,7 @@
 
 <!-- ![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ML-Dev.png) -->
 
-<img src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ML-Dev.png" width="850" height="500">
+<img src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ML-Dev.png" width="950" height="500">
 
 
 #####	Data Selection 
@@ -51,7 +51,7 @@ After experimentation and prototyping the model goes into continuous training (C
 
 #### Training Pipeline Setup 
 
-<img src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/CICD-Training-Pipeline.png" width="850" height="500">
+<img src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/CICD-Training-Pipeline.png" width="950" height="500">
 
 
 The training pipeline will have following workflow stages before it goes into production 
