@@ -22,7 +22,7 @@
 
 <!-- ![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ML-Dev.png) -->
 
-<img src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ML-Dev.png" width="500" height="500">
+<img src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ML-Dev.png" width="1000" height="800">
 
 
 #####	Data Selection 
