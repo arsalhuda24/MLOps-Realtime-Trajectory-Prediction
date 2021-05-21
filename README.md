@@ -20,7 +20,7 @@
 
 #### Experimentation and Prototyping 
 
-![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ML-Dev.png)
+<img src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ML-Dev.png" width="100" height="100">
 
 
 #####	Data Selection 
