@@ -20,6 +20,9 @@
 
 #### Experimentation and Prototyping 
 
+![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ML-development.png)
+
+
 #####	Data Selection 
 
 - The goal is to observe pedestrian motion for (3.2 secs) and forecast their future motion (4.8sec)
