@@ -75,8 +75,12 @@ To improve the model performance we want to ensure that the model is continuousl
 
 
 ### References 
-A Scalable Deep Learning Rest API (Keras + Flask + Redis)
+- A Scalable Deep Learning Rest API (Keras + Flask + Redis)
 https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/
 
-- Multi Object Detection and Tracking (TODO)
+- Multi Object Detection and Tracking
 https://github.com/cfotache/pytorch_objectdetecttrack
+
+- YOLO5_DeepSort pedestrian detection and tracking 
+https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch
+
