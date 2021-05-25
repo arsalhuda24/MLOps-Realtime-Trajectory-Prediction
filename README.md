@@ -84,3 +84,6 @@ https://github.com/cfotache/pytorch_objectdetecttrack
 - YOLO5_DeepSort pedestrian detection and tracking 
 https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch
 
+- Python script to Cache SQL data into Redis 
+https://clasense4.wordpress.com/2012/07/29/python-redis-how-to-cache-python-mysql-result-using-redis/
+
