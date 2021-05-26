@@ -81,7 +81,7 @@ To improve the model performance we want to ensure that the model is continuousl
 
 - [YOLO5_DeepSort pedestrian detection and tracking](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
 
-- [Pedestrian Tracking on RTISP camera feed using pyTorch](https://medium.com/natix-io/real-time-pedestrian-tracking-service-for-surveillance-cameras-using-pytorch-and-flask-6bc9810a4cb8)
+- [Pedestrian Tracking on RTSP camera feed using pyTorch](https://medium.com/natix-io/real-time-pedestrian-tracking-service-for-surveillance-cameras-using-pytorch-and-flask-6bc9810a4cb8)
 
 - [Python script to Cache SQL data into Redis](https://clasense4.wordpress.com/2012/07/29/python-redis-how-to-cache-python-mysql-result-using-redis/)
 
