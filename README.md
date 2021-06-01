@@ -91,3 +91,5 @@ To improve the model performance we want to ensure that the model is continuousl
 
 - [Scalable, secure, and cost-optimized Toyota Connected Data Lake](https://aws.amazon.com/blogs/big-data/enhancing-customer-safety-by-leveraging-the-scalable-secure-and-cost-optimized-toyota-connected-data-lake/)
 
+-[Continious Training ML pipeline in AWS](https://github.com/dylan-tong-aws/aws-serverless-ml-pipeline) 
+
