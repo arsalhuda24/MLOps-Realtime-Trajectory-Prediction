@@ -93,3 +93,5 @@ To improve the model performance we want to ensure that the model is continuousl
 
 - [Continious Training ML pipeline in AWS](https://github.com/dylan-tong-aws/aws-serverless-ml-pipeline) 
 
+- [MLOPS (Revisiting google paper)](https://medium.com/slalom-data-analytics/mlops-part-1-assessing-machine-learning-maturity-88e9cb05eca9) 
+
