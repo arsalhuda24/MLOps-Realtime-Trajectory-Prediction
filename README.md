@@ -1,6 +1,6 @@
 # Real-Time Trajectory Prediction Deployment
 
-![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/MLOps_Trajectory Prediction.bmp)
+![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/MLOps.png)
 
 
 ## ML Infrastructure Lifecycle 
