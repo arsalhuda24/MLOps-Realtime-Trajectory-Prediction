@@ -1,4 +1,8 @@
-# Real-Time Trajectory Prediction Deployment
+# Real-Time Trajectory Prediction System
+
+## Object Detection and Tracking (Yolo5 + deepsort)
+
+![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/detection_yolo5_deepsort)
 
 ![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/MLOps.png)
 
