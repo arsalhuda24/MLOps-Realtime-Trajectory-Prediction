@@ -6,7 +6,7 @@
   <img width="460" height="300" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/detection_yolo5_deepsort.gif">
 </p>
 
-
+MLOps Architecture for Pedestrian Trajectory Prediction on AWS
 
 ![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/MLOps.png)
 
