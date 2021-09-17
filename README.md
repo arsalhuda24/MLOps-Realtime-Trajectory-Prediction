@@ -3,7 +3,7 @@
 ## Object Detection and Tracking (Yolo5 + deepsort)
 
 <p align="center">
-  <img width="460" height="300" src="![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/detection_yolo5_deepsort.gif)">
+  <img width="460" height="300" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/detection_yolo5_deepsort.gif">
 </p>
 
 
