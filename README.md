@@ -82,7 +82,7 @@ To improve the model performance we want to ensure that the model is continuousl
 
 
 
-### References 
+<!--- -- ### References 
 - [A Scalable Deep Learning Rest API (Keras + Flask + Redis)](https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/)
 
 - [Multi Object Detection and Tracking](https://github.com/cfotache/pytorch_objectdetecttrack)
@@ -104,5 +104,5 @@ To improve the model performance we want to ensure that the model is continuousl
 
 - [Continious Training ML pipeline in AWS](https://github.com/dylan-tong-aws/aws-serverless-ml-pipeline) 
 
-- [MLOPS (Revisiting google paper)](https://medium.com/slalom-data-analytics/mlops-part-1-assessing-machine-learning-maturity-88e9cb05eca9) 
+- [MLOPS (Revisiting google paper)](https://medium.com/slalom-data-analytics/mlops-part-1-assessing-machine-learning-maturity-88e9cb05eca9) >
 
