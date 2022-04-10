@@ -13,8 +13,6 @@
 
 ## ML Infrastructure Lifecycle 
 
-####	Data Management 
-
 #####	Data Collection
 
 - Run object detection/tracking algorithms (Yolo etc) to detect and track pedestrians from live video feed.
