@@ -8,7 +8,8 @@
 
 ## MLOps Architecture for Pedestrian Trajectory Prediction on AWS
 
-![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/MLOps.png)
+<!--![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/MLOps.png) -->
+![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ML_infra.png)
 
 
 ## ML Infrastructure Lifecycle 
