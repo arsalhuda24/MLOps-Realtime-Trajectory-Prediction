@@ -2,9 +2,9 @@
 
 ## Object Detection and Tracking (Yolo5 + deepsort)
 
-<p align="center">
+<!-- <p align="center">
   <img width="560" height="250" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/detection_yolo5_deepsort.gif">
-</p>
+</p> -->
 
 
 <p align="center">
