@@ -6,6 +6,13 @@
   <img width="560" height="480" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/detection_yolo5_deepsort.gif">
 </p>
 
+
+<p align="center">
+  <img width="560" height="480" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/bev_trajs.gif">
+</p>
+
+
+
 ## Machine Learning Infrastructure for Real-Time Pedestrian Trajectory Prediction
 
 <!--![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/MLOps.png) -->
