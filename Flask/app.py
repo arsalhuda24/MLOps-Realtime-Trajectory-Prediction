@@ -305,16 +305,6 @@ def bev_map1():
 
         cnt = cnt + 1
 
-        # if bev_arr is None:
-        #     bev_img = cv2.imread("/home/asyed/my_docker/Yolov5_DeepSort_Pytorch/map_harmons.png")
-        #     be_enc = cv2.imencode('.jpg', bev_img)[1].tobytes() 
-        #     yield (b'--frame\r\n'
-        #               b'Content-Type: image/jpeg\r\n\r\n' + be_enc+ b'\r\n')
-
-        # else:
-
-            # print("bev_ar_in_else", bev_arr)
-
         bev_img = cv2.imread("/home/asyed/my_docker/Yolov5_DeepSort_Pytorch/map_harmons.png")
 
         for coords in bev_arr:
@@ -362,32 +352,10 @@ def checker_bev():
        time.sleep(0.002)
 
 
-# def checker_bev1():
-#    while True:
-#        #bev_map()
-#        video_feed1()
-#        time.sleep(1)
-
-
-
-# def checker_thread():
-#     while True:
-#         if feed_type == 'camera':
-#             video_feed(feed_type)
-#             time.sleep(0.2)
-#         elif feed_type =='birds_eye':
-#             video_feed(feed_type)
-#             time.sleep(0.2)
-
 if __name__ == '__main__':
     
-    
-# #    
     x = threading.Thread(target=checker_bev, daemon = True)
     x.start()
-# #    
-    # y = threading.Thread(target=checker_bev1, daemon = True)
-    # y.start()
     
     app.run(host='0.0.0.0', threaded=True, debug = True)
 
