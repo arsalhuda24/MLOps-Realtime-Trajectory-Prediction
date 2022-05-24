@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 35%;
+  padding: 1px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+</head>
+<body>
+
+
+<h1>Real Time Trajectory Prediction</h1>
+
+<div class="clearfix">
+  <div class="img-container">
+        <p align="center">Trafi-Radar</p>
+        <img src="{{ url_for('video_feed')}}" class="center"  style="border:1px solid black;width:75%" alt="Camera stream 1">
+  </div>
+
+  <div class="img-container">
+        <p align="center">BEV</p>
+        <img src="{{ url_for('video_feed1')}}" class="center"  style="border:1px solid black;width:75%" alt="Camera stream 1">
+  </div>
+ 
+
+  
+
+
+</div>
+
+
+</body>
+</html>
