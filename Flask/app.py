@@ -245,12 +245,15 @@ def my_gen():
 
                             
                             pts = np.array([[bbox_left, bbox_top, 1]])
-                            # print("pts", pts)
                             arr_per = convert_bev(pts)
-                            dets_per_img.append(arr_per)
-                            # print("arr_not_global", arr)
+                            # print("arr_per_to", arr_per)
 
-                            # print("arr_after_none", arr)
+
+                            arr_per = np.append(id, arr_per)
+                            # print("arr_per1_to", arr_per1)
+
+                            dets_per_img.append(arr_per)
+                         
                          
                 LOGGER.info(f'{s}Done. YOLO:({t3 - t2:.3f}s), DeepSort:({t5 - t4:.3f}s)')
 
@@ -305,18 +308,28 @@ def bev_map1():
 
         cnt = cnt + 1
 
+
+
         bev_img = cv2.imread("/home/asyed/my_docker/Yolov5_DeepSort_Pytorch/map_harmons.png")
 
+        
         for coords in bev_arr:
+            print("coords_with_id", coords)
 
             if coords is None:
                 break
+
+            coords_only = coords[1:]
+
             print("coords", coords)
             # print("coords_shape", coords.shape)
 
             cv2.putText(bev_img, str(cnt), (500,400) , cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2, cv2.LINE_AA)
          #   cv2.circle(bev_img, tuple(bev_arr[0]), 2,(255,0,0), 5)
-            cv2.circle(bev_img, tuple(coords), 2,(255,0,0), 5)
+            
+            cv2.putText(bev_img, str(coords[0]), tuple(coords_only) , cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2, cv2.LINE_AA)
+
+            cv2.circle(bev_img, tuple(coords_only), 2,(255,0,0), 5)
 
         be_enc = cv2.imencode('.jpg', bev_img)[1].tobytes() 
 
@@ -329,21 +342,13 @@ def bev_map1():
 @app.route('/video_feed')
 
 def video_feed():
-
     return Response(bev_map(), mimetype='multipart/x-mixed-replace; boundary=frame')
-
-        
-
 
 @app.route('/video_feed1')
 def video_feed1():
-#     #if feed_type == "birds_eye":
-#     det_bev = 'be'
-     return Response(bev_map1(), mimetype='multipart/x-mixed-replace; boundary=frame')
+    return Response(bev_map1(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 
-
-#
 def checker_bev():
    while True:
        #bev_map()
@@ -358,6 +363,7 @@ if __name__ == '__main__':
     x.start()
     
     app.run(host='0.0.0.0', threaded=True, debug = True)
+
 
 
 
