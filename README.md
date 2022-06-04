@@ -110,5 +110,6 @@ To improve the model performance we want to ensure that the model is continuousl
 
 - [Continious Training ML pipeline in AWS](https://github.com/dylan-tong-aws/aws-serverless-ml-pipeline) 
 
-- [MLOPS (Revisiting google paper)](https://medium.com/slalom-data-analytics/mlops-part-1-assessing-machine-learning-maturity-88e9cb05eca9) >
+- [MLOPS (Revisiting google paper)](https://medium.com/slalom-data-analytics/mlops-part-1-assessing-machine-learning-maturity-88e9cb05eca9) 
+- [distributed video streaming pipeline using KAFKA](https://towardsdatascience.com/kafka-in-action-building-a-distributed-multi-video-processing-pipeline-with-python-and-confluent-9f133858f5a0)>
 
