@@ -1,4 +1,12 @@
 # Real-Time Trajectory Prediction System
+<!-- <p align="center">
+  <img width="560" height="250" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/detection_yolo5_deepsort.gif">
+</p> -->
+
+<p align="center">
+  <img width="560" height="250" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/bev_trajs.gif">
+</p>
+
 ## System Design
 <p align="center">
   <img width="1000" height="250" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/system_design.jpg">
@@ -21,14 +29,6 @@ The system will have following componenets:
 Video frames are read from RTSP live video feed using OpenCV
 #### Object Detection and Tracking (Yolo5 + deepsort)
 
-<!-- <p align="center">
-  <img width="560" height="250" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/detection_yolo5_deepsort.gif">
-</p> -->
-
-
-<p align="center">
-  <img width="560" height="250" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/bev_trajs.gif">
-</p>
 
 
 
