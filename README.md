@@ -5,16 +5,17 @@
 </p>
 The system will have following componenets:
 
-- Data Ingestion Pipeline
-- Preprocessing 
+- ETL Pipline  
 - Model Development (LSTM, GAN, VAE)
 - Deployment 
 - Realtime Inference
 - Monitoring 
 - Retrain  
 
-## Data Ingestion 
-### Object Detection and Tracking (Yolo5 + deepsort)
+## ETL Pipeline 
+### Data Ingestion (Extract)
+Video frames are read from RTSP live video feed using OpenCV
+#### Object Detection and Tracking (Yolo5 + deepsort)
 
 <!-- <p align="center">
   <img width="560" height="250" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/detection_yolo5_deepsort.gif">
