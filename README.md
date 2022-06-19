@@ -5,7 +5,7 @@
 </p>
 The system will have following componenets:
 
-- Data Ingestion 
+- Data Ingestion Pipeline
 - Preprocessing 
 - Model Development 
 - Deployment 
