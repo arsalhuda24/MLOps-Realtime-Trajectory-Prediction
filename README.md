@@ -14,7 +14,7 @@ The system will have following componenets:
 
 ## ETL Pipeline 
 <p align="center">
-  <img width="1000" height="250" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ETL.jpg">
+  <img width="1000" height="200" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ETL.jpg">
 </p>
 
 ### Data Ingestion (Extract)
