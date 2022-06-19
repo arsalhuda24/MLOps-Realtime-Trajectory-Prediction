@@ -31,6 +31,10 @@ Video frames are read from RTSP live video feed using OpenCV
 
 ## Model Development 
 
+<p align="center">
+  <img width="1000" height="220" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/model_development.jpg">
+</p>
+
 We develop a LSTM autoencoder model. The historical motion is encoded into a low dimentional subspace through LSTM encoder and future motion is predicted by a LSTM decoder layer. 
 
 - LSTM Autoencoder 
