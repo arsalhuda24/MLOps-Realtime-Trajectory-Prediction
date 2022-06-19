@@ -25,10 +25,17 @@ The system will have following componenets:
   <img width="1000" height="220" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ETL.jpg">
 </p>
 
-### Data Ingestion (Extract)
+#### Data Ingestion (Extract)
 Video frames are read from RTSP live video feed using OpenCV
 #### Object Detection and Tracking (Yolo5 + deepsort)
 
+## Model Development 
+
+We develop a LSTM autoencoder model. The historical motion is encoded into a low dimentional subspace through LSTM encoder and future motion is predicted by a LSTM decoder layer. 
+
+- LSTM Autoencoder 
+- Social General Adversarial Network (TODO) 
+- Graph Neural Network (TODO)
 
 
 
