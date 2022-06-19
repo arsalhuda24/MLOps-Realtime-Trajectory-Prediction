@@ -3,8 +3,17 @@
 <p align="center">
   <img width="560" height="250" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/system_design.jpg">
 </p>
+The system will have following componenets:
 
-## Object Detection and Tracking (Yolo5 + deepsort)
+- Data Ingestion 
+- Preprocessing 
+- Model Development 
+- Deployment 
+- Monitoring 
+- Retrain  
+
+## Data Ingestion 
+### Object Detection and Tracking (Yolo5 + deepsort)
 
 <!-- <p align="center">
   <img width="560" height="250" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/detection_yolo5_deepsort.gif">
