@@ -7,8 +7,7 @@ The system will have following componenets:
 
 - Data Ingestion Pipeline
 - Preprocessing 
-- Model Development
--   asdasd 
+- Model Development (LSTM, GAN, VAE)
 - Deployment 
 - Realtime Inference
 - Monitoring 
