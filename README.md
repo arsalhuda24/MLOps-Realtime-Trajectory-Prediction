@@ -1,7 +1,7 @@
 # Real-Time Trajectory Prediction System
 ## System Design
 <p align="center">
-  <img width="560" height="250" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/system_design.jpg">
+  <img width="1000" height="250" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/system_design.jpg">
 </p>
 The system will have following componenets:
 
