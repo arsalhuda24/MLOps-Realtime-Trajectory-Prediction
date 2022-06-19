@@ -9,6 +9,7 @@ The system will have following componenets:
 - Preprocessing 
 - Model Development 
 - Deployment 
+- Realtime Inference
 - Monitoring 
 - Retrain  
 
