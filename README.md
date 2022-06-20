@@ -20,16 +20,16 @@ The system will have following componenets:
 - Monitoring 
 - Retrain  
 
-### ETL Pipeline 
+## ETL Pipeline 
 <p align="center">
   <img width="1000" height="220" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ETL.jpg">
 </p>
 
-#### Data Ingestion (Extract)
+### Data Ingestion (Extract)
 Video frames are read from RTSP live video feed using OpenCV
-#### Object Detection and Tracking (Yolo5 + deepsort)
+### Object Detection and Tracking (Yolo5 + deepsort)
 
-### Model Development 
+## Model Development 
 
 <p align="center">
   <img width="1000" height="200" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/model_development.jpg">
