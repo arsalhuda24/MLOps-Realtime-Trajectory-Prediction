@@ -24,8 +24,14 @@ The system will have following componenets:
 <p align="center">
   <img width="1000" height="220" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ETL.jpg">
 </p>
-├── Trajectory_prediction
-  ├── track.py
+.
+    ├── build                   # Compiled files (alternatively `dist`)
+    ├── docs                    # Documentation files (alternatively `doc`)
+    ├── src                     # Source files (alternatively `lib` or `app`)
+    ├── test                    # Automated tests (alternatively `spec` or `tests`)
+    ├── tools                   # Tools and utilities
+    ├── LICENSE
+    └── README.md
   
 ### Data Ingestion (Extract)
 Video frames are read from RTSP live video feed using OpenCV
