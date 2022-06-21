@@ -24,7 +24,9 @@ The system will have following componenets:
 <p align="center">
   <img width="1000" height="220" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ETL.jpg">
 </p>
-
+├── Trajectory_prediction
+  ├── track.py
+  
 ### Data Ingestion (Extract)
 Video frames are read from RTSP live video feed using OpenCV
 ### Object Detection and Tracking (Yolo5 + deepsort)
