@@ -24,7 +24,9 @@ The system will have following componenets:
 <p align="center">
   <img width="1000" height="220" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ETL.jpg">
 </p>
-.
+### A typical top-level directory layout
+
+    .
     ├── build                   # Compiled files (alternatively `dist`)
     ├── docs                    # Documentation files (alternatively `doc`)
     ├── src                     # Source files (alternatively `lib` or `app`)
@@ -32,6 +34,9 @@ The system will have following componenets:
     ├── tools                   # Tools and utilities
     ├── LICENSE
     └── README.md
+
+> Use short lowercase names at least for the top-level files and folders except
+> `LICENSE`, `README.md`
   
 ### Data Ingestion (Extract)
 Video frames are read from RTSP live video feed using OpenCV
