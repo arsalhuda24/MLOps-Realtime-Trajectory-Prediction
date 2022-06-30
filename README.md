@@ -34,10 +34,7 @@ The system will have following componenets:
     ├── LICENSE
     └── README.md
 
-  
-### Data Ingestion (Extract)
-Video frames are read from RTSP live video feed using OpenCV
-### Object Detection and Tracking (Yolo5 + deepsort)
+
 
 ## Model Development 
 
@@ -51,9 +48,10 @@ We develop a LSTM autoencoder model. The historical motion is encoded into a low
 - Social General Adversarial Network (TODO) 
 - Graph Neural Network (TODO)
 
+## Deployment 
+- Flask App 
 
-
-## Machine Learning Infrastructure for Real-Time Pedestrian Trajectory Prediction
+## Machine Learning Infrastructure in AWS 
 
 <!--![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/MLOps.png) -->
 ![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/ML_infrastructure.png)
