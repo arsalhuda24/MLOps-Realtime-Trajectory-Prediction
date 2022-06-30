@@ -56,7 +56,7 @@ We develop a LSTM autoencoder model. The historical motion is encoded into a low
 ## Machine Learning Infrastructure for Real-Time Pedestrian Trajectory Prediction
 
 <!--![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/MLOps.png) -->
-![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ML_infrastructure.png)
+![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/ML_infrastructure.png)
 
 
 ## ML Infrastructure Lifecycle 
