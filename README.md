@@ -4,12 +4,12 @@
 </p> -->
 
 <p align="center">
-  <img width="560" height="250" src="https://github.com/arsalhuda24/MLOps-Realtime-Trajectory-Prediction/tree/master/images/bev_trajs.gif">
+  <img width="560" height="250" src="https://github.com/arsalhuda24/MLOps-Realtime-Trajectory-Prediction/blob/master/images/bev_trajs.gif">
 </p>
 
 ## Overview
 <p align="center">
-  <img width="1000" height="250" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/system_design.jpg">
+  <img width="1000" height="250" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/system_design.jpg">
 </p>
 The system will have following componenets:
 
