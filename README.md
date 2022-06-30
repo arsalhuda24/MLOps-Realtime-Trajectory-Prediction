@@ -22,7 +22,7 @@ The system will have following componenets:
 
 ## ETL Pipeline 
 <p align="center">
-  <img width="1000" height="220" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ETL.jpg">
+  <img width="1000" height="220" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/ETL.jpg">
 </p>
 
     .
@@ -42,7 +42,7 @@ Video frames are read from RTSP live video feed using OpenCV
 ## Model Development 
 
 <p align="center">
-  <img width="1000" height="150" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/model_development.jpg">
+  <img width="1000" height="150" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/model_development.jpg">
 </p>
 
 We develop a LSTM autoencoder model. The historical motion is encoded into a low dimentional subspace through LSTM encoder and future motion is predicted by a LSTM decoder layer. 
@@ -74,9 +74,9 @@ We develop a LSTM autoencoder model. The historical motion is encoded into a low
 
 #### Experimentation and Prototyping 
 
-<!-- ![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ML-Dev.png) -->
+<!-- ![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/ML-Dev.png) -->
 
-<img src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/ML-Dev.png" width="950" height="500">
+<img src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/ML-Dev.png" width="950" height="500">
 
 
 #####	Data Selection 
@@ -105,7 +105,7 @@ After experimentation and prototyping the model goes into continuous training (C
 
 #### Training Pipeline Setup 
 
-<img src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/CICD-Training-Pipeline.png" width="950" height="500">
+<img src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/CICD-Training-Pipeline.png" width="950" height="500">
 
 
 The training pipeline will have following workflow stages before it goes into production 
