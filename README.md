@@ -53,8 +53,8 @@ Ubuntu 20.04 python 3.8
 We develop a LSTM autoencoder model. The historical motion is encoded into a low dimentional subspace through LSTM encoder and future motion is predicted by a LSTM decoder layer. 
 
 - LSTM Autoencoder 
-- Social General Adversarial Network (TODO) 
-- Graph Neural Network (TODO)
+- Social GAN (TODO) 
+- Spatio Temporal Graph Neural Network- STGCNN (TODO)
 
 ## Deployment 
 - Flask App 
