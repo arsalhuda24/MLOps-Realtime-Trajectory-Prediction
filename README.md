@@ -11,6 +11,8 @@
 <p align="center">
   <img width="1000" height="250" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/system_design.jpg">
 </p>
+This project aims to forecast future trajectories of pedestrian in a scene. The trajectory prediction task works as follows: given the past observed trajectory of an agent the goal is to predict the future trajectory (coordinates) of the agent in subsequent frames. Following the literature norm, the prediction task is commonly tackled for 8 observed positions and 12 predicted positions. The time between two positions being 0.4s, we observe an agent moving during 3.2s and predict its movement for the next 4.8s. 
+
 The system will have following componenets:
 
 - ETL Pipline  
