@@ -39,7 +39,7 @@ This project aims to forecast future trajectories of pedestrian in a scene. The 
 ## Model Development 
 
 <p align="center">
-  <img width="800" height="500" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/models.png">
+  <img width="800" height="350" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/models.png">
 </p>
 
 We develop a LSTM autoencoder model. The historical motion is encoded into a low dimentional subspace through LSTM encoder and future motion is predicted by a LSTM decoder layer. 
