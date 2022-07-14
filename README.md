@@ -44,6 +44,9 @@ Please follow this [link](https://www.digitalocean.com/community/tutorials/how-t
   <img width="800" height="350" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/models.png">
 </p>
 
+Ubuntu 20.04 python 3.8
+
+
 We develop a LSTM autoencoder model. The historical motion is encoded into a low dimentional subspace through LSTM encoder and future motion is predicted by a LSTM decoder layer. 
 
 - LSTM Autoencoder 
