@@ -25,6 +25,8 @@ This project aims to forecast future trajectories of pedestrian in a scene. The 
   <img width="1000" height="220" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/ETL.jpg">
 </p>
 
+Please follow this [link](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-20-04) to set up MongoDB and install MongoDB Compass client. 
+
     .
     ├── Trajectory_Prediction                   # Compiled files (alternatively `dist`)
       ├── Yolo_deepsort                    # Documentation files (alternatively `doc`)
