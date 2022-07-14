@@ -27,7 +27,9 @@ This project aims to forecast future trajectories of pedestrian in a scene. The 
 
 Please follow this [link](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-20-04) to set up MongoDB and install MongoDB Compass client. 
 
-- We capture RTSP video streams throuugh openCV and run Yolov5 and Deepsort for detection and tracking of pedestrians in the scene. The image coordintaes are then transofrmed in to world coorinates by using homography matrix (I will post a sepetae tutorial on computing homography). After that, trajectory sequences are generated and stored in mongodb. This serves as a feature stroe for training prediciton models.  
+- We capture RTSP video streams throuugh openCV and run Yolov5 and Deepsort for detection and tracking of pedestrians in the scene. The image coordintaes are then transofrmed in to world coorinates by using homography matrix (I will post a sepetae tutorial on computing homography). After that, trajectory sequences are generated and stored in mongodb. This serves as a feature stroe for training prediciton models
+
+
 
     .
     ├── Trajectory_Prediction                   # Compiled files (alternatively `dist`)
