@@ -25,11 +25,12 @@ This project aims to forecast future trajectories of pedestrian in a scene. The 
   <img width="1000" height="220" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/ETL.jpg">
 </p>
 
-We capture RTSP video streams throuugh openCV and run Yolov5 and Deepsort for detection and tracking of pedestrians in the scene. The image coordintaes are then transofrmed in to world coorinates by using homography matrix (I will post a sepetae tutorial on computing homography). After that, trajectory sequences are generated and stored in mongodb. This serves as a feature stroe for training prediciton models
-
 - Please follow this [link](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-20-04) to set up MongoDB and install MongoDB Compass client. 
 
 - Follow this [link](https://www.hackerxone.com/2021/10/15/steps-to-install-and-setup-apache-airflow-on-ubuntu-20-04-lts/) to set up Apache Airflow. This will help to automate ETL tasks and load new stream of data into MongoDB
+
+We capture RTSP video streams throuugh openCV and run Yolov5 and Deepsort for detection and tracking of pedestrians in the scene. The image coordintaes are then transofrmed in to world coorinates by using homography matrix (I will post a sepetae tutorial on computing homography). After that, trajectory sequences are generated and stored in mongodb. This serves as a feature stroe for training prediciton models
+
 
 
     .
