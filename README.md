@@ -66,6 +66,14 @@ We develop a LSTM autoencoder model. The historical motion is encoded into a low
 ## Deployment 
 - Flask App 
 
+## Monitoring 
+<p align="center">
+  <img width="800" height="350" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/evalute.png">
+</p>
+
+
+The effectiveness of trajectory prediciton models is measured by ADE/FDE (meters). Lower the better. We will constantly monitor these metrics in production and initiate re-training triggers when ADE/FDE rises above a specific threshold. 
+
 ## Machine Learning Infrastructure in AWS 
 
 <!--![Trajectory](https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/MLOps.png) -->
