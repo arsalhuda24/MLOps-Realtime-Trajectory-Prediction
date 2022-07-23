@@ -72,7 +72,7 @@ We develop a LSTM autoencoder model. The historical motion is encoded into a low
 </p>
 
 
-The effectiveness of trajectory prediciton models is measured by ADE/FDE (meters). Lower the better. We will constantly monitor these metrics in production and initiate re-training triggers when ADE/FDE rises above a specific threshold. 
+The effectiveness of trajectory prediciton models is measured by ADE/FDE (meters). Lower the better. These metrics are monitored in production and re-training triggers are initiated when ADE/FDE rises above a specific threshold. 
 
 ## Machine Learning Infrastructure in AWS 
 
