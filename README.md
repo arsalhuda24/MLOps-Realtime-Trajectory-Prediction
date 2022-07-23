@@ -42,6 +42,10 @@ We capture RTSP video streams throuugh openCV and run Yolov5 and Deepsort for de
     ├── LICENSE
     └── README.md
 
+### ETL Job Orchestration using Apache Airflow 
+
+
+
 
 
 ## Model Development 
