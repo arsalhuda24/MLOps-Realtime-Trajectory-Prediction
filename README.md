@@ -68,7 +68,7 @@ We develop a LSTM autoencoder model. The historical motion is encoded into a low
 
 ## Monitoring 
 <p align="center">
-  <img width="800" height="350" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/evalute.png">
+  <img width="800" height="350" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/evalute.jpg">
 </p>
 
 
