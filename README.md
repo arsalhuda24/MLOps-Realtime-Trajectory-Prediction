@@ -20,7 +20,7 @@ This project aims to forecast future trajectories of pedestrian in a scene. The 
 - Monitoring 
 - Re-training  
 
-## ETL Pipeline 
+## Data Ingestion and ETL Pipeline 
 <p align="center">
   <img width="1000" height="220" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/ingestion_etl_pipeline.jpg">
 </p>
