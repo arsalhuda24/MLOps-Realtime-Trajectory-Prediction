@@ -20,9 +20,9 @@ This project aims to forecast future trajectories of pedestrian in a scene. The 
 - Monitoring 
 - Re-training  
 
-## ETL Pipeline 
+## Data Ingestion and ETL Pipeline 
 <p align="center">
-  <img width="1000" height="220" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/ETL.jpg">
+  <img width="1000" height="220" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/ingestion_etl_pipeline.jpg">
 </p>
 
 - Please follow this [link](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-20-04) to set up MongoDB and install MongoDB Compass client. 
@@ -34,12 +34,15 @@ We capture RTSP video streams throuugh openCV and run Yolov5 and Deepsort for de
 
 
     .
-    ├── Trajectory_Prediction                   # Compiled files (alternatively `dist`)
-      ├── Yolo_deepsort                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
+    ├── airflow                   
+      ├── ETL                    # source code for data extraction, transformation and storing.
+      ├── dags                   # Dags for running ETL jobs 
+      ├── logs
+      ├── airflow-webserver.pid
+      ├── airflow.cfg
+    ├── flask                     # code for inference
+    ├── images                    
+    ├── trajectory_prediction                  
     └── README.md
 
 ### ETL Job Orchestration using Apache Airflow 
@@ -82,14 +85,14 @@ The effectiveness of trajectory prediciton models is measured by ADE/FDE (meters
 
 ## ML Infrastructure Lifecycle 
 
-#####	Data Collection
+The goal is to scale the on-premise infrastructure using AWS cloud. The ETL pipleline will be deployed on EC2 instances. The heavy lifting object detection and tracking is still done locally (not to rake up cloud bill). 
 
-- Run object detection/tracking algorithms (Yolo etc) to detect and track pedestrians from live video feed.
-- Extract pedestrian bounding box's centroids. This serves as (x,y) coordinates of peds in a given frame
-- Save coordinates and frame information in a Database or a storage service (S3) 
-- Ensure realtime update of pedestrian coordinates in data storage 
+#####	Data Ingestion 
 
-#####	Data Transformation  
+- Object detecion and tracking is done locally and agent coordinates are transmitted to AWS via Kinesis streams and firehose.
+- The raw data is stored eventually in S3 bucket. This completes the data ingestion procedure. 
+
+#####	ETL Pipleline   
 
 - Extract trajectories (sequences) with frame and pedestrian information and store in another table
 
