@@ -82,14 +82,14 @@ The effectiveness of trajectory prediciton models is measured by ADE/FDE (meters
 
 ## ML Infrastructure Lifecycle 
 
-#####	Data Collection
+The goal is to scale the on-premise infrastructure using AWS cloud. The ETL pipleline will be deployed on EC2 instances. The heavy lifting object detection and tracking is still done locally (not to rake up cloud bill). 
 
-- Run object detection/tracking algorithms (Yolo etc) to detect and track pedestrians from live video feed.
-- Extract pedestrian bounding box's centroids. This serves as (x,y) coordinates of peds in a given frame
-- Save coordinates and frame information in a Database or a storage service (S3) 
-- Ensure realtime update of pedestrian coordinates in data storage 
+#####	Data Ingestion 
 
-#####	Data Transformation  
+- Object detecion and tracking is done locally and agent coordinates are transmitted to AWS via Kinesis streams and firehose.
+- The raw data is stored eventually in S3 bucket. This completes the data ingestion procedure. 
+
+#####	ETL Pipleline   
 
 - Extract trajectories (sequences) with frame and pedestrian information and store in another table
 
