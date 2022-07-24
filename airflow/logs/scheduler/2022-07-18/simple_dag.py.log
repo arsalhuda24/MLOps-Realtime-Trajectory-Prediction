@@ -1,0 +1,1375 @@
+[2022-07-17 22:51:08,611] {processor.py:153} INFO - Started process (PID=1032014) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:51:08,612] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 22:51:08,612] {logging_mixin.py:115} INFO - [2022-07-17 22:51:08,612] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:51:08,614] {logging_mixin.py:115} INFO - [2022-07-17 22:51:08,614] {dagbag.py:321} ERROR - Failed to import: /home/asyed/airflow/dags/simple_dag.py
+Traceback (most recent call last):
+  File "/home/asyed/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/asyed/airflow/dags/simple_dag.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-07-17 22:51:08,615] {processor.py:653} WARNING - No viable dags retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:51:08,699] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.091 seconds
+[2022-07-17 22:51:45,183] {processor.py:153} INFO - Started process (PID=1032056) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:51:45,195] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 22:51:45,196] {logging_mixin.py:115} INFO - [2022-07-17 22:51:45,196] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:51:45,198] {logging_mixin.py:115} INFO - [2022-07-17 22:51:45,197] {dagbag.py:321} ERROR - Failed to import: /home/asyed/airflow/dags/simple_dag.py
+Traceback (most recent call last):
+  File "/home/asyed/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/asyed/airflow/dags/simple_dag.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-07-17 22:51:45,198] {processor.py:653} WARNING - No viable dags retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:51:45,273] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.094 seconds
+[2022-07-17 22:52:24,640] {processor.py:153} INFO - Started process (PID=1032091) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:52:24,653] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 22:52:24,654] {logging_mixin.py:115} INFO - [2022-07-17 22:52:24,654] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:52:24,657] {logging_mixin.py:115} INFO - [2022-07-17 22:52:24,656] {dagbag.py:321} ERROR - Failed to import: /home/asyed/airflow/dags/simple_dag.py
+Traceback (most recent call last):
+  File "/home/asyed/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/asyed/airflow/dags/simple_dag.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-07-17 22:52:24,657] {processor.py:653} WARNING - No viable dags retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:52:24,739] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.102 seconds
+[2022-07-17 22:52:56,200] {processor.py:153} INFO - Started process (PID=1032421) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:52:56,209] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 22:52:56,210] {logging_mixin.py:115} INFO - [2022-07-17 22:52:56,210] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:52:56,212] {logging_mixin.py:115} INFO - [2022-07-17 22:52:56,212] {dagbag.py:321} ERROR - Failed to import: /home/asyed/airflow/dags/simple_dag.py
+Traceback (most recent call last):
+  File "/home/asyed/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/asyed/airflow/dags/simple_dag.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-07-17 22:52:56,213] {processor.py:653} WARNING - No viable dags retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:52:56,287] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.091 seconds
+[2022-07-17 22:53:26,502] {processor.py:153} INFO - Started process (PID=1032459) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:53:26,503] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 22:53:26,503] {logging_mixin.py:115} INFO - [2022-07-17 22:53:26,503] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:53:26,505] {logging_mixin.py:115} INFO - [2022-07-17 22:53:26,505] {dagbag.py:321} ERROR - Failed to import: /home/asyed/airflow/dags/simple_dag.py
+Traceback (most recent call last):
+  File "/home/asyed/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/asyed/airflow/dags/simple_dag.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-07-17 22:53:26,505] {processor.py:653} WARNING - No viable dags retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:53:26,593] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.092 seconds
+[2022-07-17 22:53:58,849] {processor.py:153} INFO - Started process (PID=1032494) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:53:58,850] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 22:53:58,851] {logging_mixin.py:115} INFO - [2022-07-17 22:53:58,851] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:53:58,855] {logging_mixin.py:115} INFO - [2022-07-17 22:53:58,854] {dagbag.py:321} ERROR - Failed to import: /home/asyed/airflow/dags/simple_dag.py
+Traceback (most recent call last):
+  File "/home/asyed/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/asyed/airflow/dags/simple_dag.py", line 2, in <module>
+    import pandas as pd
+  File "/home/asyed/.local/lib/python3.8/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev
+  File "/home/asyed/.local/lib/python3.8/site-packages/pandas/compat/__init__.py", line 14, in <module>
+    from pandas._typing import F
+  File "/home/asyed/.local/lib/python3.8/site-packages/pandas/_typing.py", line 120, in <module>
+    np.random.BitGenerator,
+AttributeError: module 'numpy.random' has no attribute 'BitGenerator'
+[2022-07-17 22:53:58,855] {processor.py:653} WARNING - No viable dags retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:53:58,941] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.096 seconds
+[2022-07-17 22:54:03,711] {processor.py:153} INFO - Started process (PID=1032508) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:54:03,711] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 22:54:03,711] {logging_mixin.py:115} INFO - [2022-07-17 22:54:03,711] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:54:03,963] {logging_mixin.py:115} INFO - [2022-07-17 22:54:03,962] {dagbag.py:321} ERROR - Failed to import: /home/asyed/airflow/dags/simple_dag.py
+Traceback (most recent call last):
+  File "/home/asyed/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/asyed/airflow/dags/simple_dag.py", line 25, in <module>
+    start_date=datetime(2022, 7, 17), catchup=False)
+NameError: name 'datetime' is not defined
+[2022-07-17 22:54:03,963] {processor.py:653} WARNING - No viable dags retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:54:04,058] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.352 seconds
+[2022-07-17 22:54:44,172] {processor.py:153} INFO - Started process (PID=1032543) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:54:44,190] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 22:54:44,190] {logging_mixin.py:115} INFO - [2022-07-17 22:54:44,190] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:54:44,419] {logging_mixin.py:115} INFO - [2022-07-17 22:54:44,419] {dagbag.py:321} ERROR - Failed to import: /home/asyed/airflow/dags/simple_dag.py
+Traceback (most recent call last):
+  File "/home/asyed/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/asyed/airflow/dags/simple_dag.py", line 25, in <module>
+    start_date=datetime(2022, 7, 17), catchup=False)
+NameError: name 'datetime' is not defined
+[2022-07-17 22:54:44,419] {processor.py:653} WARNING - No viable dags retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:54:44,508] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.340 seconds
+[2022-07-17 22:55:17,361] {processor.py:153} INFO - Started process (PID=1032627) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:55:17,371] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 22:55:17,371] {logging_mixin.py:115} INFO - [2022-07-17 22:55:17,371] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:55:17,378] {logging_mixin.py:115} INFO - [2022-07-17 22:55:17,378] {dagbag.py:321} ERROR - Failed to import: /home/asyed/airflow/dags/simple_dag.py
+Traceback (most recent call last):
+  File "/home/asyed/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/asyed/airflow/dags/simple_dag.py", line 26, in <module>
+    hello_operator = PythonOperator(task_id='hello_task', python_callable=print_hello, dag=dag)
+NameError: name 'print_hello' is not defined
+[2022-07-17 22:55:17,378] {processor.py:653} WARNING - No viable dags retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:55:17,473] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.116 seconds
+[2022-07-17 22:55:22,828] {processor.py:153} INFO - Started process (PID=1032641) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:55:22,839] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 22:55:22,839] {logging_mixin.py:115} INFO - [2022-07-17 22:55:22,839] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:55:22,845] {logging_mixin.py:115} INFO - [2022-07-17 22:55:22,845] {dagbag.py:321} ERROR - Failed to import: /home/asyed/airflow/dags/simple_dag.py
+Traceback (most recent call last):
+  File "/home/asyed/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/asyed/airflow/dags/simple_dag.py", line 26, in <module>
+    hello_operator = PythonOperator(task_id='hello_task', python_callable=print_hello, dag=dag)
+NameError: name 'print_hello' is not defined
+[2022-07-17 22:55:22,846] {processor.py:653} WARNING - No viable dags retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:55:22,916] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.090 seconds
+[2022-07-17 22:56:04,719] {processor.py:153} INFO - Started process (PID=1032676) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:56:04,720] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 22:56:04,720] {logging_mixin.py:115} INFO - [2022-07-17 22:56:04,720] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:56:04,727] {logging_mixin.py:115} INFO - [2022-07-17 22:56:04,726] {dagbag.py:321} ERROR - Failed to import: /home/asyed/airflow/dags/simple_dag.py
+Traceback (most recent call last):
+  File "/home/asyed/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/asyed/airflow/dags/simple_dag.py", line 26, in <module>
+    hello_operator = PythonOperator(task_id='hello_task', python_callable=print_hello, dag=dag)
+NameError: name 'print_hello' is not defined
+[2022-07-17 22:56:04,727] {processor.py:653} WARNING - No viable dags retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:56:04,816] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.100 seconds
+[2022-07-17 22:56:36,841] {processor.py:153} INFO - Started process (PID=1032764) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:56:36,857] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 22:56:36,858] {logging_mixin.py:115} INFO - [2022-07-17 22:56:36,858] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:56:36,865] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:56:38,551] {logging_mixin.py:115} INFO - [2022-07-17 22:56:38,551] {manager.py:508} INFO - Created Permission View: can delete on DAG:hello_world
+[2022-07-17 22:56:38,651] {logging_mixin.py:115} INFO - [2022-07-17 22:56:38,651] {manager.py:508} INFO - Created Permission View: can read on DAG:hello_world
+[2022-07-17 22:56:38,747] {logging_mixin.py:115} INFO - [2022-07-17 22:56:38,747] {manager.py:508} INFO - Created Permission View: can edit on DAG:hello_world
+[2022-07-17 22:56:38,747] {logging_mixin.py:115} INFO - [2022-07-17 22:56:38,747] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:56:38,759] {logging_mixin.py:115} INFO - [2022-07-17 22:56:38,759] {dag.py:2439} INFO - Creating ORM DAG for hello_world
+[2022-07-17 22:56:38,767] {logging_mixin.py:115} INFO - [2022-07-17 22:56:38,767] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-16T12:00:00+00:00, run_after=2022-07-17T12:00:00+00:00
+[2022-07-17 22:56:38,955] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 2.117 seconds
+[2022-07-17 22:56:53,443] {processor.py:153} INFO - Started process (PID=1032786) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:56:53,457] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 22:56:53,457] {logging_mixin.py:115} INFO - [2022-07-17 22:56:53,457] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:56:53,464] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:56:53,470] {logging_mixin.py:115} INFO - [2022-07-17 22:56:53,470] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:56:53,486] {logging_mixin.py:115} INFO - [2022-07-17 22:56:53,486] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-16T12:00:00+00:00, run_after=2022-07-17T12:00:00+00:00
+[2022-07-17 22:56:53,564] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.125 seconds
+[2022-07-17 22:57:35,603] {processor.py:153} INFO - Started process (PID=1032822) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:57:35,604] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 22:57:35,605] {logging_mixin.py:115} INFO - [2022-07-17 22:57:35,605] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:57:35,612] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:57:35,627] {logging_mixin.py:115} INFO - [2022-07-17 22:57:35,627] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:57:35,649] {logging_mixin.py:115} INFO - [2022-07-17 22:57:35,649] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-16T12:00:00+00:00, run_after=2022-07-17T12:00:00+00:00
+[2022-07-17 22:57:35,756] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.156 seconds
+[2022-07-17 22:58:20,351] {processor.py:153} INFO - Started process (PID=1032857) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:58:20,352] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 22:58:20,353] {logging_mixin.py:115} INFO - [2022-07-17 22:58:20,353] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:58:20,360] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:58:20,371] {logging_mixin.py:115} INFO - [2022-07-17 22:58:20,371] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:58:20,387] {logging_mixin.py:115} INFO - [2022-07-17 22:58:20,387] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-16T12:00:00+00:00, run_after=2022-07-17T12:00:00+00:00
+[2022-07-17 22:58:20,478] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.130 seconds
+[2022-07-17 22:58:57,862] {processor.py:153} INFO - Started process (PID=1032893) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:58:57,873] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 22:58:57,873] {logging_mixin.py:115} INFO - [2022-07-17 22:58:57,873] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:58:57,880] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:58:57,891] {logging_mixin.py:115} INFO - [2022-07-17 22:58:57,891] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:58:57,907] {logging_mixin.py:115} INFO - [2022-07-17 22:58:57,907] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-16T12:00:00+00:00, run_after=2022-07-17T12:00:00+00:00
+[2022-07-17 22:58:57,989] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.131 seconds
+[2022-07-17 22:59:38,262] {processor.py:153} INFO - Started process (PID=1032926) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:59:38,283] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 22:59:38,283] {logging_mixin.py:115} INFO - [2022-07-17 22:59:38,283] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:59:38,290] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 22:59:38,301] {logging_mixin.py:115} INFO - [2022-07-17 22:59:38,301] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:59:38,317] {logging_mixin.py:115} INFO - [2022-07-17 22:59:38,317] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-16T12:00:00+00:00, run_after=2022-07-17T12:00:00+00:00
+[2022-07-17 22:59:38,393] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.135 seconds
+[2022-07-17 23:00:19,020] {processor.py:153} INFO - Started process (PID=1032961) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:00:19,032] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:00:19,032] {logging_mixin.py:115} INFO - [2022-07-17 23:00:19,032] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:00:19,039] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:00:19,049] {logging_mixin.py:115} INFO - [2022-07-17 23:00:19,049] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:00:19,065] {logging_mixin.py:115} INFO - [2022-07-17 23:00:19,065] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-16T12:00:00+00:00, run_after=2022-07-17T12:00:00+00:00
+[2022-07-17 23:00:19,143] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.126 seconds
+[2022-07-17 23:01:13,408] {processor.py:153} INFO - Started process (PID=1033085) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:01:13,418] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:01:13,418] {logging_mixin.py:115} INFO - [2022-07-17 23:01:13,418] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:01:13,426] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:01:13,458] {logging_mixin.py:115} INFO - [2022-07-17 23:01:13,458] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:01:13,471] {logging_mixin.py:115} INFO - [2022-07-17 23:01:13,471] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:01:13,582] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.177 seconds
+[2022-07-17 23:01:56,554] {processor.py:153} INFO - Started process (PID=1033121) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:01:56,568] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:01:56,568] {logging_mixin.py:115} INFO - [2022-07-17 23:01:56,568] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:01:56,575] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:01:56,585] {logging_mixin.py:115} INFO - [2022-07-17 23:01:56,585] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:01:56,601] {logging_mixin.py:115} INFO - [2022-07-17 23:01:56,601] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:01:56,680] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.129 seconds
+[2022-07-17 23:02:31,662] {processor.py:153} INFO - Started process (PID=1033152) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:02:31,663] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:02:31,663] {logging_mixin.py:115} INFO - [2022-07-17 23:02:31,663] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:02:31,672] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:02:31,682] {logging_mixin.py:115} INFO - [2022-07-17 23:02:31,682] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:02:31,698] {logging_mixin.py:115} INFO - [2022-07-17 23:02:31,697] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:02:31,794] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.135 seconds
+[2022-07-17 23:03:05,101] {processor.py:153} INFO - Started process (PID=1033181) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:03:05,102] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:03:05,103] {logging_mixin.py:115} INFO - [2022-07-17 23:03:05,103] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:03:05,110] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:03:05,120] {logging_mixin.py:115} INFO - [2022-07-17 23:03:05,120] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:03:05,136] {logging_mixin.py:115} INFO - [2022-07-17 23:03:05,136] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:03:05,217] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.120 seconds
+[2022-07-17 23:03:38,488] {processor.py:153} INFO - Started process (PID=1033215) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:03:38,489] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:03:38,490] {logging_mixin.py:115} INFO - [2022-07-17 23:03:38,489] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:03:38,498] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:03:38,509] {logging_mixin.py:115} INFO - [2022-07-17 23:03:38,508] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:03:38,524] {logging_mixin.py:115} INFO - [2022-07-17 23:03:38,524] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:03:38,607] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.122 seconds
+[2022-07-17 23:04:09,124] {processor.py:153} INFO - Started process (PID=1033243) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:04:09,124] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:04:09,125] {logging_mixin.py:115} INFO - [2022-07-17 23:04:09,125] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:04:09,133] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:04:09,143] {logging_mixin.py:115} INFO - [2022-07-17 23:04:09,143] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:04:09,159] {logging_mixin.py:115} INFO - [2022-07-17 23:04:09,159] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:04:09,238] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.118 seconds
+[2022-07-17 23:04:42,488] {processor.py:153} INFO - Started process (PID=1033274) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:04:42,489] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:04:42,490] {logging_mixin.py:115} INFO - [2022-07-17 23:04:42,489] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:04:42,496] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:04:42,506] {logging_mixin.py:115} INFO - [2022-07-17 23:04:42,506] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:04:42,522] {logging_mixin.py:115} INFO - [2022-07-17 23:04:42,522] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:04:42,607] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.123 seconds
+[2022-07-17 23:05:19,071] {processor.py:153} INFO - Started process (PID=1033307) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:05:19,072] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:05:19,073] {logging_mixin.py:115} INFO - [2022-07-17 23:05:19,073] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:05:19,080] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:05:19,090] {logging_mixin.py:115} INFO - [2022-07-17 23:05:19,090] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:05:19,106] {logging_mixin.py:115} INFO - [2022-07-17 23:05:19,106] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:05:19,177] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.108 seconds
+[2022-07-17 23:05:56,458] {processor.py:153} INFO - Started process (PID=1033341) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:05:56,458] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:05:56,459] {logging_mixin.py:115} INFO - [2022-07-17 23:05:56,459] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:05:56,467] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:05:56,478] {logging_mixin.py:115} INFO - [2022-07-17 23:05:56,478] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:05:56,494] {logging_mixin.py:115} INFO - [2022-07-17 23:05:56,494] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:05:56,584] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.129 seconds
+[2022-07-17 23:06:27,062] {processor.py:153} INFO - Started process (PID=1033370) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:06:27,063] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:06:27,063] {logging_mixin.py:115} INFO - [2022-07-17 23:06:27,063] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:06:27,069] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:06:27,080] {logging_mixin.py:115} INFO - [2022-07-17 23:06:27,080] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:06:27,096] {logging_mixin.py:115} INFO - [2022-07-17 23:06:27,095] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:06:27,165] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.107 seconds
+[2022-07-17 23:07:04,251] {processor.py:153} INFO - Started process (PID=1033404) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:07:04,252] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:07:04,253] {logging_mixin.py:115} INFO - [2022-07-17 23:07:04,253] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:07:04,260] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:07:04,270] {logging_mixin.py:115} INFO - [2022-07-17 23:07:04,270] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:07:04,286] {logging_mixin.py:115} INFO - [2022-07-17 23:07:04,286] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:07:04,376] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.128 seconds
+[2022-07-17 23:07:37,002] {processor.py:153} INFO - Started process (PID=1033434) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:07:37,003] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:07:37,003] {logging_mixin.py:115} INFO - [2022-07-17 23:07:37,003] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:07:37,010] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:07:37,021] {logging_mixin.py:115} INFO - [2022-07-17 23:07:37,021] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:07:37,036] {logging_mixin.py:115} INFO - [2022-07-17 23:07:37,036] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:07:37,132] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.134 seconds
+[2022-07-17 23:08:13,777] {processor.py:153} INFO - Started process (PID=1033469) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:08:13,778] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:08:13,779] {logging_mixin.py:115} INFO - [2022-07-17 23:08:13,779] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:08:13,787] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:08:13,798] {logging_mixin.py:115} INFO - [2022-07-17 23:08:13,798] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:08:13,814] {logging_mixin.py:115} INFO - [2022-07-17 23:08:13,813] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:08:13,931] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.158 seconds
+[2022-07-17 23:08:45,613] {processor.py:153} INFO - Started process (PID=1033501) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:08:45,613] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:08:45,614] {logging_mixin.py:115} INFO - [2022-07-17 23:08:45,614] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:08:45,622] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:08:45,633] {logging_mixin.py:115} INFO - [2022-07-17 23:08:45,633] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:08:45,648] {logging_mixin.py:115} INFO - [2022-07-17 23:08:45,648] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:08:45,734] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.124 seconds
+[2022-07-17 23:09:16,673] {processor.py:153} INFO - Started process (PID=1033530) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:09:16,674] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:09:16,675] {logging_mixin.py:115} INFO - [2022-07-17 23:09:16,675] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:09:16,681] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:09:16,692] {logging_mixin.py:115} INFO - [2022-07-17 23:09:16,692] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:09:16,708] {logging_mixin.py:115} INFO - [2022-07-17 23:09:16,708] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:09:16,793] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.124 seconds
+[2022-07-17 23:09:49,596] {processor.py:153} INFO - Started process (PID=1033563) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:09:49,597] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:09:49,597] {logging_mixin.py:115} INFO - [2022-07-17 23:09:49,597] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:09:49,605] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:09:49,616] {logging_mixin.py:115} INFO - [2022-07-17 23:09:49,615] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:09:49,631] {logging_mixin.py:115} INFO - [2022-07-17 23:09:49,631] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:09:49,717] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.125 seconds
+[2022-07-17 23:10:25,246] {processor.py:153} INFO - Started process (PID=1033599) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:10:25,247] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:10:25,248] {logging_mixin.py:115} INFO - [2022-07-17 23:10:25,248] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:10:25,259] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:10:25,271] {logging_mixin.py:115} INFO - [2022-07-17 23:10:25,271] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:10:25,291] {logging_mixin.py:115} INFO - [2022-07-17 23:10:25,291] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:10:25,388] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.146 seconds
+[2022-07-17 23:10:58,729] {processor.py:153} INFO - Started process (PID=1033632) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:10:58,736] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:10:58,736] {logging_mixin.py:115} INFO - [2022-07-17 23:10:58,736] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:10:58,743] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:10:58,753] {logging_mixin.py:115} INFO - [2022-07-17 23:10:58,753] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:10:58,769] {logging_mixin.py:115} INFO - [2022-07-17 23:10:58,769] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:10:58,838] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.114 seconds
+[2022-07-17 23:11:30,430] {processor.py:153} INFO - Started process (PID=1033662) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:11:30,431] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:11:30,431] {logging_mixin.py:115} INFO - [2022-07-17 23:11:30,431] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:11:30,438] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:11:30,449] {logging_mixin.py:115} INFO - [2022-07-17 23:11:30,449] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:11:30,465] {logging_mixin.py:115} INFO - [2022-07-17 23:11:30,465] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:11:30,536] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.108 seconds
+[2022-07-17 23:12:02,253] {processor.py:153} INFO - Started process (PID=1033693) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:12:02,254] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:12:02,255] {logging_mixin.py:115} INFO - [2022-07-17 23:12:02,255] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:12:02,261] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:12:02,272] {logging_mixin.py:115} INFO - [2022-07-17 23:12:02,272] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:12:02,287] {logging_mixin.py:115} INFO - [2022-07-17 23:12:02,287] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:12:02,364] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.115 seconds
+[2022-07-17 23:12:36,515] {processor.py:153} INFO - Started process (PID=1033725) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:12:36,534] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:12:36,534] {logging_mixin.py:115} INFO - [2022-07-17 23:12:36,534] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:12:36,545] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:12:36,556] {logging_mixin.py:115} INFO - [2022-07-17 23:12:36,555] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:12:36,571] {logging_mixin.py:115} INFO - [2022-07-17 23:12:36,571] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:12:36,643] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.132 seconds
+[2022-07-17 23:13:13,471] {processor.py:153} INFO - Started process (PID=1033760) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:13:13,472] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:13:13,473] {logging_mixin.py:115} INFO - [2022-07-17 23:13:13,472] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:13:13,480] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:13:13,490] {logging_mixin.py:115} INFO - [2022-07-17 23:13:13,490] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:13:13,506] {logging_mixin.py:115} INFO - [2022-07-17 23:13:13,506] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:13:13,598] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.130 seconds
+[2022-07-17 23:13:43,955] {processor.py:153} INFO - Started process (PID=1033790) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:13:43,956] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:13:43,956] {logging_mixin.py:115} INFO - [2022-07-17 23:13:43,956] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:13:43,962] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:13:43,973] {logging_mixin.py:115} INFO - [2022-07-17 23:13:43,973] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:13:43,988] {logging_mixin.py:115} INFO - [2022-07-17 23:13:43,988] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:13:44,079] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.129 seconds
+[2022-07-17 23:14:18,800] {processor.py:153} INFO - Started process (PID=1033824) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:14:18,801] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:14:18,801] {logging_mixin.py:115} INFO - [2022-07-17 23:14:18,801] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:14:18,809] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:14:18,820] {logging_mixin.py:115} INFO - [2022-07-17 23:14:18,819] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:14:18,835] {logging_mixin.py:115} INFO - [2022-07-17 23:14:18,835] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:14:18,916] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.120 seconds
+[2022-07-17 23:14:54,092] {processor.py:153} INFO - Started process (PID=1033858) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:14:54,093] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:14:54,094] {logging_mixin.py:115} INFO - [2022-07-17 23:14:54,094] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:14:54,101] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:14:54,112] {logging_mixin.py:115} INFO - [2022-07-17 23:14:54,111] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:14:54,127] {logging_mixin.py:115} INFO - [2022-07-17 23:14:54,127] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:14:54,206] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.117 seconds
+[2022-07-17 23:15:24,628] {processor.py:153} INFO - Started process (PID=1033889) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:15:24,628] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:15:24,629] {logging_mixin.py:115} INFO - [2022-07-17 23:15:24,629] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:15:24,636] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:15:24,647] {logging_mixin.py:115} INFO - [2022-07-17 23:15:24,647] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:15:24,662] {logging_mixin.py:115} INFO - [2022-07-17 23:15:24,662] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:15:24,732] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.109 seconds
+[2022-07-17 23:16:00,799] {processor.py:153} INFO - Started process (PID=1033924) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:16:00,800] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:16:00,800] {logging_mixin.py:115} INFO - [2022-07-17 23:16:00,800] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:16:00,807] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:16:00,817] {logging_mixin.py:115} INFO - [2022-07-17 23:16:00,817] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:16:00,833] {logging_mixin.py:115} INFO - [2022-07-17 23:16:00,832] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:16:00,910] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.115 seconds
+[2022-07-17 23:16:33,617] {processor.py:153} INFO - Started process (PID=1033954) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:16:33,618] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:16:33,618] {logging_mixin.py:115} INFO - [2022-07-17 23:16:33,618] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:16:33,625] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:16:33,637] {logging_mixin.py:115} INFO - [2022-07-17 23:16:33,637] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:16:33,651] {logging_mixin.py:115} INFO - [2022-07-17 23:16:33,651] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:16:33,742] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.130 seconds
+[2022-07-17 23:17:09,004] {processor.py:153} INFO - Started process (PID=1033989) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:17:09,006] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:17:09,006] {logging_mixin.py:115} INFO - [2022-07-17 23:17:09,006] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:17:09,013] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:17:09,025] {logging_mixin.py:115} INFO - [2022-07-17 23:17:09,025] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:17:09,039] {logging_mixin.py:115} INFO - [2022-07-17 23:17:09,039] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:17:09,118] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.118 seconds
+[2022-07-17 23:17:40,667] {processor.py:153} INFO - Started process (PID=1034019) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:17:40,668] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:17:40,668] {logging_mixin.py:115} INFO - [2022-07-17 23:17:40,668] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:17:40,676] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:17:40,688] {logging_mixin.py:115} INFO - [2022-07-17 23:17:40,687] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:17:40,701] {logging_mixin.py:115} INFO - [2022-07-17 23:17:40,701] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:17:40,797] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.133 seconds
+[2022-07-17 23:18:12,735] {processor.py:153} INFO - Started process (PID=1034051) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:18:12,737] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:18:12,737] {logging_mixin.py:115} INFO - [2022-07-17 23:18:12,737] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:18:12,743] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:18:12,756] {logging_mixin.py:115} INFO - [2022-07-17 23:18:12,756] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:18:12,770] {logging_mixin.py:115} INFO - [2022-07-17 23:18:12,769] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:18:12,844] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.113 seconds
+[2022-07-17 23:18:43,039] {processor.py:153} INFO - Started process (PID=1034080) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:18:43,040] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:18:43,040] {logging_mixin.py:115} INFO - [2022-07-17 23:18:43,040] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:18:43,046] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:18:43,058] {logging_mixin.py:115} INFO - [2022-07-17 23:18:43,058] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:18:43,072] {logging_mixin.py:115} INFO - [2022-07-17 23:18:43,072] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:18:43,150] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.116 seconds
+[2022-07-17 23:19:13,392] {processor.py:153} INFO - Started process (PID=1034109) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:19:13,393] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:19:13,394] {logging_mixin.py:115} INFO - [2022-07-17 23:19:13,394] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:19:13,401] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:19:13,413] {logging_mixin.py:115} INFO - [2022-07-17 23:19:13,413] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:19:13,426] {logging_mixin.py:115} INFO - [2022-07-17 23:19:13,426] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:19:13,506] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.118 seconds
+[2022-07-17 23:19:50,423] {processor.py:153} INFO - Started process (PID=1034144) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:19:50,448] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:19:50,448] {logging_mixin.py:115} INFO - [2022-07-17 23:19:50,448] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:19:50,458] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:19:50,471] {logging_mixin.py:115} INFO - [2022-07-17 23:19:50,470] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:19:50,484] {logging_mixin.py:115} INFO - [2022-07-17 23:19:50,484] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:19:50,567] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.147 seconds
+[2022-07-17 23:20:21,012] {processor.py:153} INFO - Started process (PID=1034174) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:20:21,013] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:20:21,014] {logging_mixin.py:115} INFO - [2022-07-17 23:20:21,013] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:20:21,021] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:20:21,034] {logging_mixin.py:115} INFO - [2022-07-17 23:20:21,034] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:20:21,048] {logging_mixin.py:115} INFO - [2022-07-17 23:20:21,048] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:20:21,131] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.122 seconds
+[2022-07-17 23:20:53,025] {processor.py:153} INFO - Started process (PID=1034206) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:20:53,025] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:20:53,026] {logging_mixin.py:115} INFO - [2022-07-17 23:20:53,026] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:20:53,034] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:20:53,046] {logging_mixin.py:115} INFO - [2022-07-17 23:20:53,046] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:20:53,060] {logging_mixin.py:115} INFO - [2022-07-17 23:20:53,060] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:20:53,139] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.118 seconds
+[2022-07-17 23:21:30,164] {processor.py:153} INFO - Started process (PID=1034241) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:21:30,165] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:21:30,165] {logging_mixin.py:115} INFO - [2022-07-17 23:21:30,165] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:21:30,172] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:21:30,184] {logging_mixin.py:115} INFO - [2022-07-17 23:21:30,184] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:21:30,198] {logging_mixin.py:115} INFO - [2022-07-17 23:21:30,198] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:21:30,323] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.162 seconds
+[2022-07-17 23:22:00,659] {processor.py:153} INFO - Started process (PID=1034271) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:22:00,660] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:22:00,660] {logging_mixin.py:115} INFO - [2022-07-17 23:22:00,660] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:22:00,668] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:22:00,680] {logging_mixin.py:115} INFO - [2022-07-17 23:22:00,680] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:22:00,694] {logging_mixin.py:115} INFO - [2022-07-17 23:22:00,694] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:22:00,768] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.113 seconds
+[2022-07-17 23:22:35,223] {processor.py:153} INFO - Started process (PID=1034303) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:22:35,224] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:22:35,224] {logging_mixin.py:115} INFO - [2022-07-17 23:22:35,224] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:22:35,232] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:22:35,244] {logging_mixin.py:115} INFO - [2022-07-17 23:22:35,244] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:22:35,257] {logging_mixin.py:115} INFO - [2022-07-17 23:22:35,257] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:22:35,354] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.134 seconds
+[2022-07-17 23:23:05,850] {processor.py:153} INFO - Started process (PID=1034333) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:23:05,851] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:23:05,851] {logging_mixin.py:115} INFO - [2022-07-17 23:23:05,851] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:23:05,860] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:23:05,872] {logging_mixin.py:115} INFO - [2022-07-17 23:23:05,871] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:23:05,885] {logging_mixin.py:115} INFO - [2022-07-17 23:23:05,885] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:23:05,969] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.122 seconds
+[2022-07-17 23:23:36,488] {processor.py:153} INFO - Started process (PID=1034364) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:23:36,488] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:23:36,489] {logging_mixin.py:115} INFO - [2022-07-17 23:23:36,489] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:23:36,496] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:23:36,508] {logging_mixin.py:115} INFO - [2022-07-17 23:23:36,508] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:23:36,521] {logging_mixin.py:115} INFO - [2022-07-17 23:23:36,521] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:23:36,607] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.123 seconds
+[2022-07-17 23:24:06,882] {processor.py:153} INFO - Started process (PID=1034394) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:24:06,883] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:24:06,884] {logging_mixin.py:115} INFO - [2022-07-17 23:24:06,883] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:24:06,891] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:24:06,903] {logging_mixin.py:115} INFO - [2022-07-17 23:24:06,903] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:24:06,916] {logging_mixin.py:115} INFO - [2022-07-17 23:24:06,916] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:24:07,038] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.159 seconds
+[2022-07-17 23:24:37,601] {processor.py:153} INFO - Started process (PID=1034424) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:24:37,607] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:24:37,607] {logging_mixin.py:115} INFO - [2022-07-17 23:24:37,607] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:24:37,614] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:24:37,626] {logging_mixin.py:115} INFO - [2022-07-17 23:24:37,626] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:24:37,640] {logging_mixin.py:115} INFO - [2022-07-17 23:24:37,640] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:24:37,719] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.123 seconds
+[2022-07-17 23:25:09,581] {processor.py:153} INFO - Started process (PID=1034455) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:25:09,582] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:25:09,583] {logging_mixin.py:115} INFO - [2022-07-17 23:25:09,583] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:25:09,589] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:25:09,601] {logging_mixin.py:115} INFO - [2022-07-17 23:25:09,601] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:25:09,615] {logging_mixin.py:115} INFO - [2022-07-17 23:25:09,615] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:25:09,692] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.116 seconds
+[2022-07-17 23:25:39,999] {processor.py:153} INFO - Started process (PID=1034485) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:25:40,000] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:25:40,000] {logging_mixin.py:115} INFO - [2022-07-17 23:25:40,000] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:25:40,007] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:25:40,019] {logging_mixin.py:115} INFO - [2022-07-17 23:25:40,019] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:25:40,032] {logging_mixin.py:115} INFO - [2022-07-17 23:25:40,032] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:25:40,133] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.138 seconds
+[2022-07-17 23:26:15,616] {processor.py:153} INFO - Started process (PID=1034519) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:26:15,618] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:26:15,618] {logging_mixin.py:115} INFO - [2022-07-17 23:26:15,618] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:26:15,625] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:26:15,637] {logging_mixin.py:115} INFO - [2022-07-17 23:26:15,637] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:26:15,651] {logging_mixin.py:115} INFO - [2022-07-17 23:26:15,651] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:26:15,728] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.116 seconds
+[2022-07-17 23:26:47,693] {processor.py:153} INFO - Started process (PID=1034552) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:26:47,699] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:26:47,700] {logging_mixin.py:115} INFO - [2022-07-17 23:26:47,700] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:26:47,706] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:26:47,718] {logging_mixin.py:115} INFO - [2022-07-17 23:26:47,718] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:26:47,732] {logging_mixin.py:115} INFO - [2022-07-17 23:26:47,732] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:26:47,812] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.123 seconds
+[2022-07-17 23:27:24,825] {processor.py:153} INFO - Started process (PID=1034587) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:27:24,826] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:27:24,826] {logging_mixin.py:115} INFO - [2022-07-17 23:27:24,826] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:27:24,833] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:27:24,845] {logging_mixin.py:115} INFO - [2022-07-17 23:27:24,845] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:27:24,859] {logging_mixin.py:115} INFO - [2022-07-17 23:27:24,859] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:27:24,939] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.117 seconds
+[2022-07-17 23:27:56,834] {processor.py:153} INFO - Started process (PID=1034617) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:27:56,834] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:27:56,835] {logging_mixin.py:115} INFO - [2022-07-17 23:27:56,835] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:27:56,841] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:27:56,854] {logging_mixin.py:115} INFO - [2022-07-17 23:27:56,853] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:27:56,867] {logging_mixin.py:115} INFO - [2022-07-17 23:27:56,867] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:27:56,937] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.108 seconds
+[2022-07-17 23:28:34,013] {processor.py:153} INFO - Started process (PID=1034652) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:28:34,013] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:28:34,014] {logging_mixin.py:115} INFO - [2022-07-17 23:28:34,014] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:28:34,022] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:28:34,033] {logging_mixin.py:115} INFO - [2022-07-17 23:28:34,033] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:28:34,047] {logging_mixin.py:115} INFO - [2022-07-17 23:28:34,047] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:28:34,138] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.128 seconds
+[2022-07-17 23:29:05,698] {processor.py:153} INFO - Started process (PID=1034682) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:29:05,699] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:29:05,699] {logging_mixin.py:115} INFO - [2022-07-17 23:29:05,699] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:29:05,706] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:29:05,717] {logging_mixin.py:115} INFO - [2022-07-17 23:29:05,717] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:29:05,731] {logging_mixin.py:115} INFO - [2022-07-17 23:29:05,731] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:29:05,817] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.123 seconds
+[2022-07-17 23:29:37,448] {processor.py:153} INFO - Started process (PID=1034712) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:29:37,449] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:29:37,449] {logging_mixin.py:115} INFO - [2022-07-17 23:29:37,449] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:29:37,456] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:29:37,467] {logging_mixin.py:115} INFO - [2022-07-17 23:29:37,467] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:29:37,481] {logging_mixin.py:115} INFO - [2022-07-17 23:29:37,481] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:29:37,591] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.147 seconds
+[2022-07-17 23:30:08,182] {processor.py:153} INFO - Started process (PID=1034744) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:30:08,183] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:30:08,184] {logging_mixin.py:115} INFO - [2022-07-17 23:30:08,184] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:30:08,193] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:30:08,205] {logging_mixin.py:115} INFO - [2022-07-17 23:30:08,205] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:30:08,219] {logging_mixin.py:115} INFO - [2022-07-17 23:30:08,219] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:30:08,288] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.110 seconds
+[2022-07-17 23:30:42,665] {processor.py:153} INFO - Started process (PID=1034777) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:30:42,671] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:30:42,671] {logging_mixin.py:115} INFO - [2022-07-17 23:30:42,671] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:30:42,677] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:30:42,689] {logging_mixin.py:115} INFO - [2022-07-17 23:30:42,689] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:30:42,703] {logging_mixin.py:115} INFO - [2022-07-17 23:30:42,703] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:30:42,780] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.119 seconds
+[2022-07-17 23:31:15,710] {processor.py:153} INFO - Started process (PID=1034810) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:31:15,711] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:31:15,712] {logging_mixin.py:115} INFO - [2022-07-17 23:31:15,711] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:31:15,724] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:31:15,734] {logging_mixin.py:115} INFO - [2022-07-17 23:31:15,734] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:31:15,748] {logging_mixin.py:115} INFO - [2022-07-17 23:31:15,748] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:31:15,874] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.168 seconds
+[2022-07-17 23:31:46,294] {processor.py:153} INFO - Started process (PID=1034840) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:31:46,294] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:31:46,295] {logging_mixin.py:115} INFO - [2022-07-17 23:31:46,295] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:31:46,305] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:31:46,315] {logging_mixin.py:115} INFO - [2022-07-17 23:31:46,315] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:31:46,329] {logging_mixin.py:115} INFO - [2022-07-17 23:31:46,329] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:31:46,398] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.107 seconds
+[2022-07-17 23:32:16,849] {processor.py:153} INFO - Started process (PID=1034869) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:32:16,865] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:32:16,865] {logging_mixin.py:115} INFO - [2022-07-17 23:32:16,865] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:32:16,874] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:32:16,884] {logging_mixin.py:115} INFO - [2022-07-17 23:32:16,884] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:32:16,898] {logging_mixin.py:115} INFO - [2022-07-17 23:32:16,898] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:32:16,976] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.131 seconds
+[2022-07-17 23:32:47,177] {processor.py:153} INFO - Started process (PID=1034899) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:32:47,204] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:32:47,204] {logging_mixin.py:115} INFO - [2022-07-17 23:32:47,204] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:32:47,213] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:32:47,223] {logging_mixin.py:115} INFO - [2022-07-17 23:32:47,223] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:32:47,237] {logging_mixin.py:115} INFO - [2022-07-17 23:32:47,237] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:32:47,316] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.141 seconds
+[2022-07-17 23:33:20,644] {processor.py:153} INFO - Started process (PID=1034931) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:33:20,645] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:33:20,646] {logging_mixin.py:115} INFO - [2022-07-17 23:33:20,646] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:33:20,655] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:33:20,665] {logging_mixin.py:115} INFO - [2022-07-17 23:33:20,665] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:33:20,679] {logging_mixin.py:115} INFO - [2022-07-17 23:33:20,679] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:33:20,759] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.118 seconds
+[2022-07-17 23:33:53,004] {processor.py:153} INFO - Started process (PID=1034964) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:33:53,005] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:33:53,006] {logging_mixin.py:115} INFO - [2022-07-17 23:33:53,005] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:33:53,014] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:33:53,024] {logging_mixin.py:115} INFO - [2022-07-17 23:33:53,024] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:33:53,038] {logging_mixin.py:115} INFO - [2022-07-17 23:33:53,038] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:33:53,131] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.130 seconds
+[2022-07-17 23:34:28,301] {processor.py:153} INFO - Started process (PID=1034997) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:34:28,316] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:34:28,316] {logging_mixin.py:115} INFO - [2022-07-17 23:34:28,316] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:34:28,325] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:34:28,335] {logging_mixin.py:115} INFO - [2022-07-17 23:34:28,334] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:34:28,349] {logging_mixin.py:115} INFO - [2022-07-17 23:34:28,349] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:34:28,422] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.124 seconds
+[2022-07-17 23:34:59,109] {processor.py:153} INFO - Started process (PID=1035028) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:34:59,110] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:34:59,110] {logging_mixin.py:115} INFO - [2022-07-17 23:34:59,110] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:34:59,121] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:34:59,130] {logging_mixin.py:115} INFO - [2022-07-17 23:34:59,130] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:34:59,145] {logging_mixin.py:115} INFO - [2022-07-17 23:34:59,145] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:34:59,228] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.122 seconds
+[2022-07-17 23:35:30,967] {processor.py:153} INFO - Started process (PID=1035059) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:35:30,968] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:35:30,969] {logging_mixin.py:115} INFO - [2022-07-17 23:35:30,968] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:35:30,980] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:35:30,989] {logging_mixin.py:115} INFO - [2022-07-17 23:35:30,989] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:35:31,004] {logging_mixin.py:115} INFO - [2022-07-17 23:35:31,004] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:35:31,076] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.114 seconds
+[2022-07-17 23:36:01,644] {processor.py:153} INFO - Started process (PID=1035088) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:36:01,651] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:36:01,651] {logging_mixin.py:115} INFO - [2022-07-17 23:36:01,651] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:36:01,660] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:36:01,670] {logging_mixin.py:115} INFO - [2022-07-17 23:36:01,670] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:36:01,685] {logging_mixin.py:115} INFO - [2022-07-17 23:36:01,685] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:36:01,757] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.116 seconds
+[2022-07-17 23:36:38,863] {processor.py:153} INFO - Started process (PID=1035123) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:36:38,864] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:36:38,864] {logging_mixin.py:115} INFO - [2022-07-17 23:36:38,864] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:36:38,871] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:36:38,881] {logging_mixin.py:115} INFO - [2022-07-17 23:36:38,881] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:36:38,895] {logging_mixin.py:115} INFO - [2022-07-17 23:36:38,895] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:36:38,974] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.116 seconds
+[2022-07-17 23:37:10,710] {processor.py:153} INFO - Started process (PID=1035153) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:37:10,711] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:37:10,711] {logging_mixin.py:115} INFO - [2022-07-17 23:37:10,711] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:37:10,720] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:37:10,739] {logging_mixin.py:115} INFO - [2022-07-17 23:37:10,739] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:37:10,753] {logging_mixin.py:115} INFO - [2022-07-17 23:37:10,753] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:37:10,845] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.138 seconds
+[2022-07-17 23:37:47,874] {processor.py:153} INFO - Started process (PID=1035188) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:37:47,875] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:37:47,876] {logging_mixin.py:115} INFO - [2022-07-17 23:37:47,876] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:37:47,884] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:37:47,894] {logging_mixin.py:115} INFO - [2022-07-17 23:37:47,894] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:37:47,908] {logging_mixin.py:115} INFO - [2022-07-17 23:37:47,908] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:37:48,003] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.132 seconds
+[2022-07-17 23:38:18,935] {processor.py:153} INFO - Started process (PID=1035218) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:38:18,936] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:38:18,937] {logging_mixin.py:115} INFO - [2022-07-17 23:38:18,936] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:38:18,945] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:38:18,956] {logging_mixin.py:115} INFO - [2022-07-17 23:38:18,956] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:38:18,970] {logging_mixin.py:115} INFO - [2022-07-17 23:38:18,970] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:38:19,056] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.126 seconds
+[2022-07-17 23:38:51,811] {processor.py:153} INFO - Started process (PID=1035250) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:38:51,812] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:38:51,813] {logging_mixin.py:115} INFO - [2022-07-17 23:38:51,812] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:38:51,819] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:38:51,830] {logging_mixin.py:115} INFO - [2022-07-17 23:38:51,830] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:38:51,844] {logging_mixin.py:115} INFO - [2022-07-17 23:38:51,844] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:38:51,949] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.141 seconds
+[2022-07-17 23:39:22,231] {processor.py:153} INFO - Started process (PID=1035279) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:39:22,241] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:39:22,241] {logging_mixin.py:115} INFO - [2022-07-17 23:39:22,241] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:39:22,248] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:39:22,259] {logging_mixin.py:115} INFO - [2022-07-17 23:39:22,259] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:39:22,273] {logging_mixin.py:115} INFO - [2022-07-17 23:39:22,273] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:39:22,352] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.123 seconds
+[2022-07-17 23:39:53,202] {processor.py:153} INFO - Started process (PID=1035308) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:39:53,204] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:39:53,204] {logging_mixin.py:115} INFO - [2022-07-17 23:39:53,204] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:39:53,211] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:39:53,222] {logging_mixin.py:115} INFO - [2022-07-17 23:39:53,222] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:39:53,236] {logging_mixin.py:115} INFO - [2022-07-17 23:39:53,236] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:39:53,326] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.128 seconds
+[2022-07-17 23:40:25,149] {processor.py:153} INFO - Started process (PID=1035340) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:40:25,150] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:40:25,150] {logging_mixin.py:115} INFO - [2022-07-17 23:40:25,150] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:40:25,158] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:40:25,169] {logging_mixin.py:115} INFO - [2022-07-17 23:40:25,169] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:40:25,183] {logging_mixin.py:115} INFO - [2022-07-17 23:40:25,183] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:40:25,288] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.142 seconds
+[2022-07-17 23:40:56,354] {processor.py:153} INFO - Started process (PID=1035369) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:40:56,355] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:40:56,355] {logging_mixin.py:115} INFO - [2022-07-17 23:40:56,355] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:40:56,362] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:40:56,372] {logging_mixin.py:115} INFO - [2022-07-17 23:40:56,372] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:40:56,386] {logging_mixin.py:115} INFO - [2022-07-17 23:40:56,386] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:40:56,466] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.116 seconds
+[2022-07-17 23:41:27,023] {processor.py:153} INFO - Started process (PID=1035399) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:41:27,024] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:41:27,025] {logging_mixin.py:115} INFO - [2022-07-17 23:41:27,025] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:41:27,032] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:41:27,043] {logging_mixin.py:115} INFO - [2022-07-17 23:41:27,043] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:41:27,057] {logging_mixin.py:115} INFO - [2022-07-17 23:41:27,057] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:41:27,159] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.139 seconds
+[2022-07-17 23:42:04,605] {processor.py:153} INFO - Started process (PID=1035434) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:42:04,615] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:42:04,615] {logging_mixin.py:115} INFO - [2022-07-17 23:42:04,615] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:42:04,622] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:42:04,632] {logging_mixin.py:115} INFO - [2022-07-17 23:42:04,632] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:42:04,647] {logging_mixin.py:115} INFO - [2022-07-17 23:42:04,646] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:42:04,724] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.124 seconds
+[2022-07-17 23:42:36,345] {processor.py:153} INFO - Started process (PID=1035464) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:42:36,346] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:42:36,347] {logging_mixin.py:115} INFO - [2022-07-17 23:42:36,347] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:42:36,354] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:42:36,364] {logging_mixin.py:115} INFO - [2022-07-17 23:42:36,364] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:42:36,378] {logging_mixin.py:115} INFO - [2022-07-17 23:42:36,378] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:42:36,459] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.118 seconds
+[2022-07-17 23:43:08,719] {processor.py:153} INFO - Started process (PID=1035493) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:43:08,722] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:43:08,723] {logging_mixin.py:115} INFO - [2022-07-17 23:43:08,723] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:43:08,730] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:43:08,741] {logging_mixin.py:115} INFO - [2022-07-17 23:43:08,741] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:43:08,755] {logging_mixin.py:115} INFO - [2022-07-17 23:43:08,755] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:43:08,829] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.114 seconds
+[2022-07-17 23:43:41,739] {processor.py:153} INFO - Started process (PID=1035525) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:43:41,740] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:43:41,741] {logging_mixin.py:115} INFO - [2022-07-17 23:43:41,740] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:43:41,747] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:43:41,758] {logging_mixin.py:115} INFO - [2022-07-17 23:43:41,757] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:43:41,772] {logging_mixin.py:115} INFO - [2022-07-17 23:43:41,772] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:43:41,855] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.120 seconds
+[2022-07-17 23:44:12,322] {processor.py:153} INFO - Started process (PID=1035554) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:44:12,335] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:44:12,335] {logging_mixin.py:115} INFO - [2022-07-17 23:44:12,335] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:44:12,342] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:44:12,353] {logging_mixin.py:115} INFO - [2022-07-17 23:44:12,353] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:44:12,368] {logging_mixin.py:115} INFO - [2022-07-17 23:44:12,368] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:44:12,446] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.129 seconds
+[2022-07-17 23:44:45,415] {processor.py:153} INFO - Started process (PID=1035586) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:44:45,416] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:44:45,417] {logging_mixin.py:115} INFO - [2022-07-17 23:44:45,416] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:44:45,424] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:44:45,434] {logging_mixin.py:115} INFO - [2022-07-17 23:44:45,434] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:44:45,448] {logging_mixin.py:115} INFO - [2022-07-17 23:44:45,448] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:44:45,527] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.116 seconds
+[2022-07-17 23:45:21,385] {processor.py:153} INFO - Started process (PID=1035621) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:45:21,391] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:45:21,391] {logging_mixin.py:115} INFO - [2022-07-17 23:45:21,391] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:45:21,398] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:45:21,409] {logging_mixin.py:115} INFO - [2022-07-17 23:45:21,409] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:45:21,423] {logging_mixin.py:115} INFO - [2022-07-17 23:45:21,423] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:45:21,510] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.128 seconds
+[2022-07-17 23:45:55,829] {processor.py:153} INFO - Started process (PID=1035654) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:45:55,829] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:45:55,830] {logging_mixin.py:115} INFO - [2022-07-17 23:45:55,830] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:45:55,837] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:45:55,847] {logging_mixin.py:115} INFO - [2022-07-17 23:45:55,847] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:45:55,862] {logging_mixin.py:115} INFO - [2022-07-17 23:45:55,861] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:45:55,932] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.107 seconds
+[2022-07-17 23:46:26,346] {processor.py:153} INFO - Started process (PID=1035683) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:46:26,347] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:46:26,348] {logging_mixin.py:115} INFO - [2022-07-17 23:46:26,348] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:46:26,356] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:46:26,366] {logging_mixin.py:115} INFO - [2022-07-17 23:46:26,366] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:46:26,380] {logging_mixin.py:115} INFO - [2022-07-17 23:46:26,380] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:46:26,471] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.129 seconds
+[2022-07-17 23:46:56,711] {processor.py:153} INFO - Started process (PID=1035712) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:46:56,712] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:46:56,712] {logging_mixin.py:115} INFO - [2022-07-17 23:46:56,712] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:46:56,720] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:46:56,731] {logging_mixin.py:115} INFO - [2022-07-17 23:46:56,731] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:46:56,745] {logging_mixin.py:115} INFO - [2022-07-17 23:46:56,745] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:46:56,815] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.109 seconds
+[2022-07-17 23:47:27,090] {processor.py:153} INFO - Started process (PID=1035741) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:47:27,090] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:47:27,091] {logging_mixin.py:115} INFO - [2022-07-17 23:47:27,091] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:47:27,097] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:47:27,108] {logging_mixin.py:115} INFO - [2022-07-17 23:47:27,108] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:47:27,122] {logging_mixin.py:115} INFO - [2022-07-17 23:47:27,122] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:47:27,214] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.128 seconds
+[2022-07-17 23:48:00,168] {processor.py:153} INFO - Started process (PID=1035773) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:48:00,189] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:48:00,189] {logging_mixin.py:115} INFO - [2022-07-17 23:48:00,189] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:48:00,200] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:48:00,210] {logging_mixin.py:115} INFO - [2022-07-17 23:48:00,210] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:48:00,224] {logging_mixin.py:115} INFO - [2022-07-17 23:48:00,224] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:48:00,294] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.129 seconds
+[2022-07-17 23:48:30,882] {processor.py:153} INFO - Started process (PID=1035804) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:48:30,883] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:48:30,883] {logging_mixin.py:115} INFO - [2022-07-17 23:48:30,883] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:48:30,892] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:48:30,902] {logging_mixin.py:115} INFO - [2022-07-17 23:48:30,902] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:48:30,916] {logging_mixin.py:115} INFO - [2022-07-17 23:48:30,916] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:48:30,995] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.116 seconds
+[2022-07-17 23:49:06,453] {processor.py:153} INFO - Started process (PID=1035838) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:49:06,454] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:49:06,454] {logging_mixin.py:115} INFO - [2022-07-17 23:49:06,454] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:49:06,462] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:49:06,473] {logging_mixin.py:115} INFO - [2022-07-17 23:49:06,473] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:49:06,487] {logging_mixin.py:115} INFO - [2022-07-17 23:49:06,487] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:49:06,578] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.127 seconds
+[2022-07-17 23:49:40,182] {processor.py:153} INFO - Started process (PID=1035869) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:49:40,185] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:49:40,185] {logging_mixin.py:115} INFO - [2022-07-17 23:49:40,185] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:49:40,192] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:49:40,204] {logging_mixin.py:115} INFO - [2022-07-17 23:49:40,204] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:49:40,227] {logging_mixin.py:115} INFO - [2022-07-17 23:49:40,227] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:49:40,309] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.131 seconds
+[2022-07-17 23:50:11,779] {processor.py:153} INFO - Started process (PID=1035899) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:50:11,780] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:50:11,780] {logging_mixin.py:115} INFO - [2022-07-17 23:50:11,780] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:50:11,787] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:50:11,797] {logging_mixin.py:115} INFO - [2022-07-17 23:50:11,797] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:50:11,811] {logging_mixin.py:115} INFO - [2022-07-17 23:50:11,811] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:50:11,895] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.120 seconds
+[2022-07-17 23:50:44,768] {processor.py:153} INFO - Started process (PID=1035931) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:50:44,781] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:50:44,781] {logging_mixin.py:115} INFO - [2022-07-17 23:50:44,781] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:50:44,788] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:50:44,799] {logging_mixin.py:115} INFO - [2022-07-17 23:50:44,799] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:50:44,813] {logging_mixin.py:115} INFO - [2022-07-17 23:50:44,813] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:50:44,887] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.123 seconds
+[2022-07-17 23:51:16,629] {processor.py:153} INFO - Started process (PID=1035961) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:51:16,646] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:51:16,646] {logging_mixin.py:115} INFO - [2022-07-17 23:51:16,646] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:51:16,653] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:51:16,664] {logging_mixin.py:115} INFO - [2022-07-17 23:51:16,664] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:51:16,678] {logging_mixin.py:115} INFO - [2022-07-17 23:51:16,678] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:51:16,749] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.124 seconds
+[2022-07-17 23:51:52,116] {processor.py:153} INFO - Started process (PID=1035996) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:51:52,117] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:51:52,118] {logging_mixin.py:115} INFO - [2022-07-17 23:51:52,118] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:51:52,125] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:51:52,135] {logging_mixin.py:115} INFO - [2022-07-17 23:51:52,135] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:51:52,150] {logging_mixin.py:115} INFO - [2022-07-17 23:51:52,149] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:51:52,227] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.115 seconds
+[2022-07-17 23:52:23,912] {processor.py:153} INFO - Started process (PID=1036034) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:52:23,912] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:52:23,913] {logging_mixin.py:115} INFO - [2022-07-17 23:52:23,913] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:52:23,920] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:52:23,930] {logging_mixin.py:115} INFO - [2022-07-17 23:52:23,930] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:52:23,945] {logging_mixin.py:115} INFO - [2022-07-17 23:52:23,944] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:52:24,021] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.112 seconds
+[2022-07-17 23:52:55,938] {processor.py:153} INFO - Started process (PID=1036065) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:52:55,939] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:52:55,939] {logging_mixin.py:115} INFO - [2022-07-17 23:52:55,939] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:52:55,946] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:52:55,957] {logging_mixin.py:115} INFO - [2022-07-17 23:52:55,956] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:52:55,971] {logging_mixin.py:115} INFO - [2022-07-17 23:52:55,971] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:52:56,054] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.120 seconds
+[2022-07-17 23:53:28,433] {processor.py:153} INFO - Started process (PID=1036098) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:53:28,443] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:53:28,443] {logging_mixin.py:115} INFO - [2022-07-17 23:53:28,443] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:53:28,450] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:53:28,461] {logging_mixin.py:115} INFO - [2022-07-17 23:53:28,461] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:53:28,475] {logging_mixin.py:115} INFO - [2022-07-17 23:53:28,475] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:53:28,575] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.145 seconds
+[2022-07-17 23:54:06,214] {processor.py:153} INFO - Started process (PID=1036134) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:54:06,215] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:54:06,216] {logging_mixin.py:115} INFO - [2022-07-17 23:54:06,216] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:54:06,224] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:54:06,234] {logging_mixin.py:115} INFO - [2022-07-17 23:54:06,234] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:54:06,248] {logging_mixin.py:115} INFO - [2022-07-17 23:54:06,248] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:54:06,328] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.118 seconds
+[2022-07-17 23:54:39,293] {processor.py:153} INFO - Started process (PID=1036165) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:54:39,293] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:54:39,294] {logging_mixin.py:115} INFO - [2022-07-17 23:54:39,294] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:54:39,301] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:54:39,311] {logging_mixin.py:115} INFO - [2022-07-17 23:54:39,311] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:54:39,326] {logging_mixin.py:115} INFO - [2022-07-17 23:54:39,326] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:54:39,434] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.146 seconds
+[2022-07-17 23:55:11,025] {processor.py:153} INFO - Started process (PID=1036195) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:55:11,047] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:55:11,047] {logging_mixin.py:115} INFO - [2022-07-17 23:55:11,047] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:55:11,054] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:55:11,065] {logging_mixin.py:115} INFO - [2022-07-17 23:55:11,065] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:55:11,079] {logging_mixin.py:115} INFO - [2022-07-17 23:55:11,079] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:55:11,165] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.144 seconds
+[2022-07-17 23:55:42,979] {processor.py:153} INFO - Started process (PID=1036225) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:55:42,979] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:55:42,980] {logging_mixin.py:115} INFO - [2022-07-17 23:55:42,980] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:55:42,988] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:55:42,999] {logging_mixin.py:115} INFO - [2022-07-17 23:55:42,999] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:55:43,013] {logging_mixin.py:115} INFO - [2022-07-17 23:55:43,013] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:55:43,096] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.122 seconds
+[2022-07-17 23:56:14,286] {processor.py:153} INFO - Started process (PID=1036256) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:56:14,290] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:56:14,290] {logging_mixin.py:115} INFO - [2022-07-17 23:56:14,290] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:56:14,298] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:56:14,309] {logging_mixin.py:115} INFO - [2022-07-17 23:56:14,309] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:56:14,323] {logging_mixin.py:115} INFO - [2022-07-17 23:56:14,323] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:56:14,394] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.111 seconds
+[2022-07-17 23:56:45,939] {processor.py:153} INFO - Started process (PID=1036286) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:56:45,946] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:56:45,946] {logging_mixin.py:115} INFO - [2022-07-17 23:56:45,946] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:56:45,952] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:56:45,963] {logging_mixin.py:115} INFO - [2022-07-17 23:56:45,963] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:56:45,977] {logging_mixin.py:115} INFO - [2022-07-17 23:56:45,977] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:56:46,047] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.112 seconds
+[2022-07-17 23:57:16,431] {processor.py:153} INFO - Started process (PID=1036315) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:57:16,452] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:57:16,452] {logging_mixin.py:115} INFO - [2022-07-17 23:57:16,452] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:57:16,458] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:57:16,469] {logging_mixin.py:115} INFO - [2022-07-17 23:57:16,469] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:57:16,483] {logging_mixin.py:115} INFO - [2022-07-17 23:57:16,483] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:57:16,556] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.130 seconds
+[2022-07-17 23:57:51,886] {processor.py:153} INFO - Started process (PID=1036349) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:57:51,900] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:57:51,901] {logging_mixin.py:115} INFO - [2022-07-17 23:57:51,901] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:57:51,907] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:57:51,918] {logging_mixin.py:115} INFO - [2022-07-17 23:57:51,918] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:57:51,932] {logging_mixin.py:115} INFO - [2022-07-17 23:57:51,932] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:57:52,005] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.122 seconds
+[2022-07-17 23:58:29,019] {processor.py:153} INFO - Started process (PID=1036384) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:58:29,042] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:58:29,042] {logging_mixin.py:115} INFO - [2022-07-17 23:58:29,042] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:58:29,049] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:58:29,060] {logging_mixin.py:115} INFO - [2022-07-17 23:58:29,060] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:58:29,074] {logging_mixin.py:115} INFO - [2022-07-17 23:58:29,074] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:58:29,187] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.172 seconds
+[2022-07-17 23:59:00,895] {processor.py:153} INFO - Started process (PID=1036415) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:59:00,915] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:59:00,915] {logging_mixin.py:115} INFO - [2022-07-17 23:59:00,915] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:59:00,923] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:59:00,935] {logging_mixin.py:115} INFO - [2022-07-17 23:59:00,935] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:59:00,949] {logging_mixin.py:115} INFO - [2022-07-17 23:59:00,949] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:59:01,027] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.137 seconds
+[2022-07-17 23:59:32,185] {processor.py:153} INFO - Started process (PID=1036445) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:59:32,186] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-17 23:59:32,186] {logging_mixin.py:115} INFO - [2022-07-17 23:59:32,186] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:59:32,193] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-17 23:59:32,204] {logging_mixin.py:115} INFO - [2022-07-17 23:59:32,204] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 23:59:32,218] {logging_mixin.py:115} INFO - [2022-07-17 23:59:32,218] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-17 23:59:32,298] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.115 seconds
+[2022-07-18 00:00:03,427] {processor.py:153} INFO - Started process (PID=1036480) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:00:03,427] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:00:03,427] {logging_mixin.py:115} INFO - [2022-07-18 00:00:03,427] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:00:03,434] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:00:03,444] {logging_mixin.py:115} INFO - [2022-07-18 00:00:03,444] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:00:03,459] {logging_mixin.py:115} INFO - [2022-07-18 00:00:03,459] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:00:03,531] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.108 seconds
+[2022-07-18 00:00:37,305] {processor.py:153} INFO - Started process (PID=1036556) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:00:37,376] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:00:37,376] {logging_mixin.py:115} INFO - [2022-07-18 00:00:37,376] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:00:37,382] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:00:37,393] {logging_mixin.py:115} INFO - [2022-07-18 00:00:37,393] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:00:37,407] {logging_mixin.py:115} INFO - [2022-07-18 00:00:37,407] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:00:38,042] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.741 seconds
+[2022-07-18 00:01:11,130] {processor.py:153} INFO - Started process (PID=1036588) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:01:11,141] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:01:11,142] {logging_mixin.py:115} INFO - [2022-07-18 00:01:11,141] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:01:11,148] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:01:11,159] {logging_mixin.py:115} INFO - [2022-07-18 00:01:11,159] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:01:11,173] {logging_mixin.py:115} INFO - [2022-07-18 00:01:11,173] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:01:11,260] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.134 seconds
+[2022-07-18 00:01:44,496] {processor.py:153} INFO - Started process (PID=1036620) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:01:44,497] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:01:44,497] {logging_mixin.py:115} INFO - [2022-07-18 00:01:44,497] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:01:44,504] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:01:44,514] {logging_mixin.py:115} INFO - [2022-07-18 00:01:44,514] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:01:44,528] {logging_mixin.py:115} INFO - [2022-07-18 00:01:44,528] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:01:44,614] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.122 seconds
+[2022-07-18 00:02:17,557] {processor.py:153} INFO - Started process (PID=1036654) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:02:17,557] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:02:17,558] {logging_mixin.py:115} INFO - [2022-07-18 00:02:17,558] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:02:17,567] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:02:17,577] {logging_mixin.py:115} INFO - [2022-07-18 00:02:17,577] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:02:17,592] {logging_mixin.py:115} INFO - [2022-07-18 00:02:17,592] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:02:17,662] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.109 seconds
+[2022-07-18 00:02:54,869] {processor.py:153} INFO - Started process (PID=1036689) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:02:54,876] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:02:54,876] {logging_mixin.py:115} INFO - [2022-07-18 00:02:54,876] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:02:54,883] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:02:54,893] {logging_mixin.py:115} INFO - [2022-07-18 00:02:54,893] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:02:54,908] {logging_mixin.py:115} INFO - [2022-07-18 00:02:54,907] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:02:54,989] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.124 seconds
+[2022-07-18 00:03:29,008] {processor.py:153} INFO - Started process (PID=1036721) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:03:29,009] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:03:29,009] {logging_mixin.py:115} INFO - [2022-07-18 00:03:29,009] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:03:29,018] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:03:29,029] {logging_mixin.py:115} INFO - [2022-07-18 00:03:29,029] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:03:29,043] {logging_mixin.py:115} INFO - [2022-07-18 00:03:29,043] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:03:29,121] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.117 seconds
+[2022-07-18 00:04:01,736] {processor.py:153} INFO - Started process (PID=1036753) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:04:01,755] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:04:01,756] {logging_mixin.py:115} INFO - [2022-07-18 00:04:01,756] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:04:01,762] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:04:01,772] {logging_mixin.py:115} INFO - [2022-07-18 00:04:01,772] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:04:01,786] {logging_mixin.py:115} INFO - [2022-07-18 00:04:01,786] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:04:01,872] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.139 seconds
+[2022-07-18 00:04:36,556] {processor.py:153} INFO - Started process (PID=1036787) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:04:36,571] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:04:36,571] {logging_mixin.py:115} INFO - [2022-07-18 00:04:36,571] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:04:36,577] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:04:36,588] {logging_mixin.py:115} INFO - [2022-07-18 00:04:36,588] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:04:36,602] {logging_mixin.py:115} INFO - [2022-07-18 00:04:36,602] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:04:36,672] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.121 seconds
+[2022-07-18 00:05:12,167] {processor.py:153} INFO - Started process (PID=1036821) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:05:12,168] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:05:12,168] {logging_mixin.py:115} INFO - [2022-07-18 00:05:12,168] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:05:12,175] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:05:12,185] {logging_mixin.py:115} INFO - [2022-07-18 00:05:12,185] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:05:12,199] {logging_mixin.py:115} INFO - [2022-07-18 00:05:12,199] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:05:12,279] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.117 seconds
+[2022-07-18 00:05:44,452] {processor.py:153} INFO - Started process (PID=1036851) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:05:44,453] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:05:44,453] {logging_mixin.py:115} INFO - [2022-07-18 00:05:44,453] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:05:44,461] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:05:44,472] {logging_mixin.py:115} INFO - [2022-07-18 00:05:44,472] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:05:44,486] {logging_mixin.py:115} INFO - [2022-07-18 00:05:44,486] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:05:44,564] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.116 seconds
+[2022-07-18 00:06:18,549] {processor.py:153} INFO - Started process (PID=1036884) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:06:18,558] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:06:18,558] {logging_mixin.py:115} INFO - [2022-07-18 00:06:18,558] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:06:18,565] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:06:18,576] {logging_mixin.py:115} INFO - [2022-07-18 00:06:18,576] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:06:18,590] {logging_mixin.py:115} INFO - [2022-07-18 00:06:18,590] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:06:18,672] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.126 seconds
+[2022-07-18 00:06:50,612] {processor.py:153} INFO - Started process (PID=1036915) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:06:50,613] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:06:50,613] {logging_mixin.py:115} INFO - [2022-07-18 00:06:50,613] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:06:50,620] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:06:50,630] {logging_mixin.py:115} INFO - [2022-07-18 00:06:50,630] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:06:50,645] {logging_mixin.py:115} INFO - [2022-07-18 00:06:50,644] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:06:50,736] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.129 seconds
+[2022-07-18 00:07:22,734] {processor.py:153} INFO - Started process (PID=1036946) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:07:22,735] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:07:22,735] {logging_mixin.py:115} INFO - [2022-07-18 00:07:22,735] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:07:22,743] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:07:22,754] {logging_mixin.py:115} INFO - [2022-07-18 00:07:22,753] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:07:22,768] {logging_mixin.py:115} INFO - [2022-07-18 00:07:22,767] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:07:22,892] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.162 seconds
+[2022-07-18 00:07:57,379] {processor.py:153} INFO - Started process (PID=1036980) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:07:57,379] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:07:57,380] {logging_mixin.py:115} INFO - [2022-07-18 00:07:57,380] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:07:57,387] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:07:57,398] {logging_mixin.py:115} INFO - [2022-07-18 00:07:57,398] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:07:57,412] {logging_mixin.py:115} INFO - [2022-07-18 00:07:57,412] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:07:57,490] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.116 seconds
+[2022-07-18 00:08:32,933] {processor.py:153} INFO - Started process (PID=1037014) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:08:32,934] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:08:32,935] {logging_mixin.py:115} INFO - [2022-07-18 00:08:32,935] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:08:32,941] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:08:32,952] {logging_mixin.py:115} INFO - [2022-07-18 00:08:32,951] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:08:32,966] {logging_mixin.py:115} INFO - [2022-07-18 00:08:32,966] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:08:33,056] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.127 seconds
+[2022-07-18 00:09:09,361] {processor.py:153} INFO - Started process (PID=1037052) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:09:09,367] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:09:09,367] {logging_mixin.py:115} INFO - [2022-07-18 00:09:09,367] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:09:09,374] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:09:09,384] {logging_mixin.py:115} INFO - [2022-07-18 00:09:09,384] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:09:09,398] {logging_mixin.py:115} INFO - [2022-07-18 00:09:09,398] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:09:09,471] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.112 seconds
+[2022-07-18 00:09:41,007] {processor.py:153} INFO - Started process (PID=1037082) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:09:41,008] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:09:41,008] {logging_mixin.py:115} INFO - [2022-07-18 00:09:41,008] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:09:41,015] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:09:41,026] {logging_mixin.py:115} INFO - [2022-07-18 00:09:41,026] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:09:41,040] {logging_mixin.py:115} INFO - [2022-07-18 00:09:41,040] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:09:41,129] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.125 seconds
+[2022-07-18 00:10:11,498] {processor.py:153} INFO - Started process (PID=1037111) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:10:11,498] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:10:11,499] {logging_mixin.py:115} INFO - [2022-07-18 00:10:11,499] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:10:11,508] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:10:11,524] {logging_mixin.py:115} INFO - [2022-07-18 00:10:11,524] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:10:11,539] {logging_mixin.py:115} INFO - [2022-07-18 00:10:11,538] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:10:11,626] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.131 seconds
+[2022-07-18 00:10:41,895] {processor.py:153} INFO - Started process (PID=1037141) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:10:41,911] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:10:41,911] {logging_mixin.py:115} INFO - [2022-07-18 00:10:41,911] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:10:41,917] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:10:41,929] {logging_mixin.py:115} INFO - [2022-07-18 00:10:41,929] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:10:41,943] {logging_mixin.py:115} INFO - [2022-07-18 00:10:41,943] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:10:42,023] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.132 seconds
+[2022-07-18 00:11:13,305] {processor.py:153} INFO - Started process (PID=1037170) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:11:13,317] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:11:13,317] {logging_mixin.py:115} INFO - [2022-07-18 00:11:13,317] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:11:13,323] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:11:13,335] {logging_mixin.py:115} INFO - [2022-07-18 00:11:13,334] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:11:13,349] {logging_mixin.py:115} INFO - [2022-07-18 00:11:13,349] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:11:13,431] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.130 seconds
+[2022-07-18 00:11:45,106] {processor.py:153} INFO - Started process (PID=1037200) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:11:45,106] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:11:45,107] {logging_mixin.py:115} INFO - [2022-07-18 00:11:45,107] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:11:45,113] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:11:45,123] {logging_mixin.py:115} INFO - [2022-07-18 00:11:45,123] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:11:45,137] {logging_mixin.py:115} INFO - [2022-07-18 00:11:45,137] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:11:45,243] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.141 seconds
+[2022-07-18 00:12:16,831] {processor.py:153} INFO - Started process (PID=1037230) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:12:16,832] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:12:16,832] {logging_mixin.py:115} INFO - [2022-07-18 00:12:16,832] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:12:16,839] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:12:16,849] {logging_mixin.py:115} INFO - [2022-07-18 00:12:16,849] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:12:16,863] {logging_mixin.py:115} INFO - [2022-07-18 00:12:16,863] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:12:16,958] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.131 seconds
+[2022-07-18 00:12:51,524] {processor.py:153} INFO - Started process (PID=1037264) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:12:51,525] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:12:51,525] {logging_mixin.py:115} INFO - [2022-07-18 00:12:51,525] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:12:51,532] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:12:51,542] {logging_mixin.py:115} INFO - [2022-07-18 00:12:51,542] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:12:51,556] {logging_mixin.py:115} INFO - [2022-07-18 00:12:51,556] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:12:51,639] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.120 seconds
+[2022-07-18 00:13:26,970] {processor.py:153} INFO - Started process (PID=1037297) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:13:26,983] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:13:26,984] {logging_mixin.py:115} INFO - [2022-07-18 00:13:26,984] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:13:26,992] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:13:27,008] {logging_mixin.py:115} INFO - [2022-07-18 00:13:27,008] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:13:27,025] {logging_mixin.py:115} INFO - [2022-07-18 00:13:27,025] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:13:27,118] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.152 seconds
+[2022-07-18 00:13:58,961] {processor.py:153} INFO - Started process (PID=1037330) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:13:58,962] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:13:58,963] {logging_mixin.py:115} INFO - [2022-07-18 00:13:58,963] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:13:58,970] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:13:58,980] {logging_mixin.py:115} INFO - [2022-07-18 00:13:58,980] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:13:58,994] {logging_mixin.py:115} INFO - [2022-07-18 00:13:58,994] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:13:59,213] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.256 seconds
+[2022-07-18 00:14:34,890] {processor.py:153} INFO - Started process (PID=1037365) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:14:34,890] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:14:34,891] {logging_mixin.py:115} INFO - [2022-07-18 00:14:34,891] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:14:34,899] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:14:34,910] {logging_mixin.py:115} INFO - [2022-07-18 00:14:34,910] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:14:34,924] {logging_mixin.py:115} INFO - [2022-07-18 00:14:34,924] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:14:35,040] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.153 seconds
+[2022-07-18 00:15:14,295] {processor.py:153} INFO - Started process (PID=1037400) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:15:14,309] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:15:14,310] {logging_mixin.py:115} INFO - [2022-07-18 00:15:14,310] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:15:14,316] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:15:14,327] {logging_mixin.py:115} INFO - [2022-07-18 00:15:14,327] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:15:14,341] {logging_mixin.py:115} INFO - [2022-07-18 00:15:14,341] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:15:14,512] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.222 seconds
+[2022-07-18 00:15:50,238] {processor.py:153} INFO - Started process (PID=1037434) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:15:50,238] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:15:50,239] {logging_mixin.py:115} INFO - [2022-07-18 00:15:50,239] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:15:50,248] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:15:50,258] {logging_mixin.py:115} INFO - [2022-07-18 00:15:50,258] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:15:50,272] {logging_mixin.py:115} INFO - [2022-07-18 00:15:50,272] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:15:50,363] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.128 seconds
+[2022-07-18 00:16:20,861] {processor.py:153} INFO - Started process (PID=1037463) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:16:20,862] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:16:20,862] {logging_mixin.py:115} INFO - [2022-07-18 00:16:20,862] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:16:20,869] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:16:20,879] {logging_mixin.py:115} INFO - [2022-07-18 00:16:20,879] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:16:20,894] {logging_mixin.py:115} INFO - [2022-07-18 00:16:20,894] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:16:20,969] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.112 seconds
+[2022-07-18 00:16:58,104] {processor.py:153} INFO - Started process (PID=1037498) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:16:58,104] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:16:58,105] {logging_mixin.py:115} INFO - [2022-07-18 00:16:58,105] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:16:58,112] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:16:58,123] {logging_mixin.py:115} INFO - [2022-07-18 00:16:58,123] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:16:58,137] {logging_mixin.py:115} INFO - [2022-07-18 00:16:58,137] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:16:58,243] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.143 seconds
+[2022-07-18 00:17:30,173] {processor.py:153} INFO - Started process (PID=1037531) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:17:30,198] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:17:30,198] {logging_mixin.py:115} INFO - [2022-07-18 00:17:30,198] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:17:30,208] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:17:30,219] {logging_mixin.py:115} INFO - [2022-07-18 00:17:30,219] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:17:30,233] {logging_mixin.py:115} INFO - [2022-07-18 00:17:30,233] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:17:30,309] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.139 seconds
+[2022-07-18 00:18:07,359] {processor.py:153} INFO - Started process (PID=1037566) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:18:07,359] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:18:07,360] {logging_mixin.py:115} INFO - [2022-07-18 00:18:07,360] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:18:07,366] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:18:07,377] {logging_mixin.py:115} INFO - [2022-07-18 00:18:07,377] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:18:07,391] {logging_mixin.py:115} INFO - [2022-07-18 00:18:07,391] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:18:07,473] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.119 seconds
+[2022-07-18 00:18:38,304] {processor.py:153} INFO - Started process (PID=1037597) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:18:38,319] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:18:38,320] {logging_mixin.py:115} INFO - [2022-07-18 00:18:38,320] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:18:38,331] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:18:38,343] {logging_mixin.py:115} INFO - [2022-07-18 00:18:38,343] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:18:38,357] {logging_mixin.py:115} INFO - [2022-07-18 00:18:38,357] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:18:38,471] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.169 seconds
+[2022-07-18 00:19:11,169] {processor.py:153} INFO - Started process (PID=1037627) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:19:11,169] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:19:11,170] {logging_mixin.py:115} INFO - [2022-07-18 00:19:11,170] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:19:11,178] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:19:11,189] {logging_mixin.py:115} INFO - [2022-07-18 00:19:11,189] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:19:11,203] {logging_mixin.py:115} INFO - [2022-07-18 00:19:11,203] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:19:11,281] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.116 seconds
+[2022-07-18 00:19:43,101] {processor.py:153} INFO - Started process (PID=1037657) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:19:43,102] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:19:43,102] {logging_mixin.py:115} INFO - [2022-07-18 00:19:43,102] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:19:43,109] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:19:43,120] {logging_mixin.py:115} INFO - [2022-07-18 00:19:43,119] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:19:43,134] {logging_mixin.py:115} INFO - [2022-07-18 00:19:43,134] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:19:43,225] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.128 seconds
+[2022-07-18 00:20:13,564] {processor.py:153} INFO - Started process (PID=1037687) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:20:13,564] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:20:13,565] {logging_mixin.py:115} INFO - [2022-07-18 00:20:13,565] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:20:13,572] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:20:13,583] {logging_mixin.py:115} INFO - [2022-07-18 00:20:13,583] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:20:13,597] {logging_mixin.py:115} INFO - [2022-07-18 00:20:13,597] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:20:13,672] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.113 seconds
+[2022-07-18 00:20:45,684] {processor.py:153} INFO - Started process (PID=1037718) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:20:45,685] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:20:45,686] {logging_mixin.py:115} INFO - [2022-07-18 00:20:45,686] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:20:45,692] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:20:45,703] {logging_mixin.py:115} INFO - [2022-07-18 00:20:45,703] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:20:45,717] {logging_mixin.py:115} INFO - [2022-07-18 00:20:45,717] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:20:45,796] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.115 seconds
+[2022-07-18 00:21:18,852] {processor.py:153} INFO - Started process (PID=1037750) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:21:18,853] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:21:18,853] {logging_mixin.py:115} INFO - [2022-07-18 00:21:18,853] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:21:18,861] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:21:18,872] {logging_mixin.py:115} INFO - [2022-07-18 00:21:18,872] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:21:18,886] {logging_mixin.py:115} INFO - [2022-07-18 00:21:18,886] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:21:18,963] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.114 seconds
+[2022-07-18 00:21:54,549] {processor.py:153} INFO - Started process (PID=1037785) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:21:54,558] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:21:54,559] {logging_mixin.py:115} INFO - [2022-07-18 00:21:54,559] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:21:54,566] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:21:54,577] {logging_mixin.py:115} INFO - [2022-07-18 00:21:54,576] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:21:54,591] {logging_mixin.py:115} INFO - [2022-07-18 00:21:54,591] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:21:54,670] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.125 seconds
+[2022-07-18 00:22:25,218] {processor.py:153} INFO - Started process (PID=1037814) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:22:25,231] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:22:25,231] {logging_mixin.py:115} INFO - [2022-07-18 00:22:25,231] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:22:25,238] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:22:25,250] {logging_mixin.py:115} INFO - [2022-07-18 00:22:25,250] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:22:25,264] {logging_mixin.py:115} INFO - [2022-07-18 00:22:25,264] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:22:25,352] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.137 seconds
+[2022-07-18 00:22:59,321] {processor.py:153} INFO - Started process (PID=1037845) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:22:59,322] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:22:59,323] {logging_mixin.py:115} INFO - [2022-07-18 00:22:59,323] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:22:59,329] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:22:59,340] {logging_mixin.py:115} INFO - [2022-07-18 00:22:59,340] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:22:59,354] {logging_mixin.py:115} INFO - [2022-07-18 00:22:59,354] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:22:59,433] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.116 seconds
+[2022-07-18 00:23:33,556] {processor.py:153} INFO - Started process (PID=1037877) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:23:33,557] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:23:33,558] {logging_mixin.py:115} INFO - [2022-07-18 00:23:33,558] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:23:33,565] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:23:33,575] {logging_mixin.py:115} INFO - [2022-07-18 00:23:33,575] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:23:33,590] {logging_mixin.py:115} INFO - [2022-07-18 00:23:33,590] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:23:33,693] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.141 seconds
+[2022-07-18 00:24:08,104] {processor.py:153} INFO - Started process (PID=1037912) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:24:08,105] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:24:08,106] {logging_mixin.py:115} INFO - [2022-07-18 00:24:08,106] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:24:08,113] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:24:08,123] {logging_mixin.py:115} INFO - [2022-07-18 00:24:08,123] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:24:08,137] {logging_mixin.py:115} INFO - [2022-07-18 00:24:08,137] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:24:08,252] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.152 seconds
+[2022-07-18 00:24:40,261] {processor.py:153} INFO - Started process (PID=1037944) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:24:40,262] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:24:40,262] {logging_mixin.py:115} INFO - [2022-07-18 00:24:40,262] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:24:40,271] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:24:40,281] {logging_mixin.py:115} INFO - [2022-07-18 00:24:40,281] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:24:40,295] {logging_mixin.py:115} INFO - [2022-07-18 00:24:40,295] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:24:40,402] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.145 seconds
+[2022-07-18 00:25:16,030] {processor.py:153} INFO - Started process (PID=1037979) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:25:16,041] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:25:16,042] {logging_mixin.py:115} INFO - [2022-07-18 00:25:16,042] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:25:16,049] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:25:16,060] {logging_mixin.py:115} INFO - [2022-07-18 00:25:16,060] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:25:16,074] {logging_mixin.py:115} INFO - [2022-07-18 00:25:16,074] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:25:16,159] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.133 seconds
+[2022-07-18 00:25:51,603] {processor.py:153} INFO - Started process (PID=1038012) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:25:51,604] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:25:51,605] {logging_mixin.py:115} INFO - [2022-07-18 00:25:51,605] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:25:51,611] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:25:51,622] {logging_mixin.py:115} INFO - [2022-07-18 00:25:51,622] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:25:51,636] {logging_mixin.py:115} INFO - [2022-07-18 00:25:51,636] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:25:51,716] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.117 seconds
+[2022-07-18 00:26:22,189] {processor.py:153} INFO - Started process (PID=1038043) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:26:22,190] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:26:22,190] {logging_mixin.py:115} INFO - [2022-07-18 00:26:22,190] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:26:22,198] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:26:22,209] {logging_mixin.py:115} INFO - [2022-07-18 00:26:22,209] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:26:22,227] {logging_mixin.py:115} INFO - [2022-07-18 00:26:22,227] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:26:22,316] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.130 seconds
+[2022-07-18 00:26:53,852] {processor.py:153} INFO - Started process (PID=1038073) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:26:53,852] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:26:53,853] {logging_mixin.py:115} INFO - [2022-07-18 00:26:53,853] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:26:53,861] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:26:53,872] {logging_mixin.py:115} INFO - [2022-07-18 00:26:53,871] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:26:53,886] {logging_mixin.py:115} INFO - [2022-07-18 00:26:53,885] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:26:54,020] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.171 seconds
+[2022-07-18 00:27:24,421] {processor.py:153} INFO - Started process (PID=1038103) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:27:24,428] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:27:24,429] {logging_mixin.py:115} INFO - [2022-07-18 00:27:24,429] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:27:24,435] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:27:24,446] {logging_mixin.py:115} INFO - [2022-07-18 00:27:24,446] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:27:24,461] {logging_mixin.py:115} INFO - [2022-07-18 00:27:24,461] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:27:24,535] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.117 seconds
+[2022-07-18 00:28:01,572] {processor.py:153} INFO - Started process (PID=1038138) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:28:01,573] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:28:01,573] {logging_mixin.py:115} INFO - [2022-07-18 00:28:01,573] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:28:01,580] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:28:01,591] {logging_mixin.py:115} INFO - [2022-07-18 00:28:01,591] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:28:01,605] {logging_mixin.py:115} INFO - [2022-07-18 00:28:01,605] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:28:01,708] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.140 seconds
+[2022-07-18 00:28:33,422] {processor.py:153} INFO - Started process (PID=1038168) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:28:33,422] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:28:33,422] {logging_mixin.py:115} INFO - [2022-07-18 00:28:33,422] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:28:33,429] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:28:33,440] {logging_mixin.py:115} INFO - [2022-07-18 00:28:33,440] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:28:33,454] {logging_mixin.py:115} INFO - [2022-07-18 00:28:33,454] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:28:33,544] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.125 seconds
+[2022-07-18 00:29:07,781] {processor.py:153} INFO - Started process (PID=1038202) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:29:07,781] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:29:07,782] {logging_mixin.py:115} INFO - [2022-07-18 00:29:07,782] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:29:07,790] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:29:07,801] {logging_mixin.py:115} INFO - [2022-07-18 00:29:07,801] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:29:07,815] {logging_mixin.py:115} INFO - [2022-07-18 00:29:07,815] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:29:07,915] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.137 seconds
+[2022-07-18 00:29:43,888] {processor.py:153} INFO - Started process (PID=1038238) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:29:43,889] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:29:43,889] {logging_mixin.py:115} INFO - [2022-07-18 00:29:43,889] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:29:43,896] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:29:43,907] {logging_mixin.py:115} INFO - [2022-07-18 00:29:43,907] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:29:43,921] {logging_mixin.py:115} INFO - [2022-07-18 00:29:43,921] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:29:44,070] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.186 seconds
+[2022-07-18 00:30:17,901] {processor.py:153} INFO - Started process (PID=1038270) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:30:17,902] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:30:17,902] {logging_mixin.py:115} INFO - [2022-07-18 00:30:17,902] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:30:17,911] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:30:17,921] {logging_mixin.py:115} INFO - [2022-07-18 00:30:17,921] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:30:17,935] {logging_mixin.py:115} INFO - [2022-07-18 00:30:17,935] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:30:18,018] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.119 seconds
+[2022-07-18 00:30:48,526] {processor.py:153} INFO - Started process (PID=1038300) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:30:48,527] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:30:48,527] {logging_mixin.py:115} INFO - [2022-07-18 00:30:48,527] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:30:48,535] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:30:48,546] {logging_mixin.py:115} INFO - [2022-07-18 00:30:48,546] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:30:48,560] {logging_mixin.py:115} INFO - [2022-07-18 00:30:48,560] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:30:48,645] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.123 seconds
+[2022-07-18 00:31:25,190] {processor.py:153} INFO - Started process (PID=1038335) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:31:25,198] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:31:25,198] {logging_mixin.py:115} INFO - [2022-07-18 00:31:25,198] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:31:25,205] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:31:25,215] {logging_mixin.py:115} INFO - [2022-07-18 00:31:25,215] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:31:25,229] {logging_mixin.py:115} INFO - [2022-07-18 00:31:25,229] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:31:25,314] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.127 seconds
+[2022-07-18 00:32:00,511] {processor.py:153} INFO - Started process (PID=1038370) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:32:00,530] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:32:00,530] {logging_mixin.py:115} INFO - [2022-07-18 00:32:00,530] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:32:00,538] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:32:00,549] {logging_mixin.py:115} INFO - [2022-07-18 00:32:00,549] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:32:00,564] {logging_mixin.py:115} INFO - [2022-07-18 00:32:00,564] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:32:00,647] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.140 seconds
+[2022-07-18 00:32:37,667] {processor.py:153} INFO - Started process (PID=1038405) to work on /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:32:37,667] {processor.py:641} INFO - Processing file /home/asyed/airflow/dags/simple_dag.py for tasks to queue
+[2022-07-18 00:32:37,668] {logging_mixin.py:115} INFO - [2022-07-18 00:32:37,668] {dagbag.py:508} INFO - Filling up the DagBag from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:32:37,676] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/asyed/airflow/dags/simple_dag.py
+[2022-07-18 00:32:37,687] {logging_mixin.py:115} INFO - [2022-07-18 00:32:37,686] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-18 00:32:37,701] {logging_mixin.py:115} INFO - [2022-07-18 00:32:37,701] {dag.py:2968} INFO - Setting next_dagrun for hello_world to 2022-07-17T12:00:00+00:00, run_after=2022-07-18T12:00:00+00:00
+[2022-07-18 00:32:37,787] {processor.py:161} INFO - Processing /home/asyed/airflow/dags/simple_dag.py took 0.124 seconds
