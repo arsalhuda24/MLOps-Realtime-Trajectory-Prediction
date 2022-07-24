@@ -22,7 +22,7 @@ This project aims to forecast future trajectories of pedestrian in a scene. The 
 
 ## ETL Pipeline 
 <p align="center">
-  <img width="1000" height="220" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/ETL.jpg">
+  <img width="1000" height="220" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/ingestion_etl_pipeline.jpg">
 </p>
 
 - Please follow this [link](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-20-04) to set up MongoDB and install MongoDB Compass client. 
