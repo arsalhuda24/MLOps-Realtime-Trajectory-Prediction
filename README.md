@@ -34,12 +34,15 @@ We capture RTSP video streams throuugh openCV and run Yolov5 and Deepsort for de
 
 
     .
-    ├── Trajectory_Prediction                   # Compiled files (alternatively `dist`)
-      ├── Yolo_deepsort                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
+    ├── airflow                   
+      ├── ETL                    # source code for data extraction, transformation and storing.
+      ├── dags                   # Dags for running ETL jobs 
+      ├── logs
+      ├── airflow-webserver.pid
+      ├── airflow.cfg
+    ├── flask                     # code for inference
+    ├── images                    
+    ├── trajectory_prediction                  
     └── README.md
 
 ### ETL Job Orchestration using Apache Airflow 
