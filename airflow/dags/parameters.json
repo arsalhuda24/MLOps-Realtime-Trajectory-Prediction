@@ -1,0 +1,35 @@
+{
+	"input_dim" : 64,
+	"hidden_dim" : 128,
+	"target_len" : 12,
+  "output_dim" : 2,
+  "obs_len" : 8,
+
+  "homography" : [[ 1.41396278e+00,  1.69996318e+00, -7.22883088e+02],
+       [-3.07159372e-02, -5.16733849e+00,  1.22561761e+03],
+       [-1.85160213e-04,  6.26773231e-02,  1.00000000e+00]],
+
+	"lr" : 0.001,
+
+  "agnostic_nms" : "False",
+  "augment" : "False",
+  "classes" : 0, 
+  "conf_thres" : 0.3,
+  "config_deepsort" : "/home/asyed/my_docker/Yolov5_DeepSort_Pytorch/deep_sort/configs/deep_sort.yaml",
+  "deep_sort_model" : "osnet_x0_25",
+  "device" : "cuda",
+  "dnn" : "False",
+  "evaluate" : "False",
+  "exist_ok" : "False",
+  "fourcc" : "mp4v",
+  "half" : "False",
+  "imgsz" : [640, 480],
+  "iou_thres" : 0.5,
+  "max_det" : 1000,
+  "name" : "exp",
+  "source" : "rtsp://10.41.29.20/?video=2",
+  "visualize" : "False",
+  "yolo_model"  : "/home/asyed/my_docker/Yolov5_DeepSort_Pytorch/yolov5/crowdhuman_yolov5m.pt",
+  "webcam" : "True",
+  "save_txt" : "True"
+}

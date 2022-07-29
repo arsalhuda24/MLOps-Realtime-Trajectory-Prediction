@@ -1,6 +1,6 @@
 import os
 # os.chdir("/home/asyed/my_docker/Yolov5_DeepSort_Pytorch")
-import track
+#import track
 import argparse
 import os
 os.environ["OMP_NUM_THREADS"] = "1"
@@ -47,6 +47,11 @@ from time import time
 from random import random
 import io
 from pymongo import MongoClient
+from datetime import date
+
+import warnings
+warnings.filterwarnings("ignore")
+
 
 agnostic_nms = False
 augment = False
