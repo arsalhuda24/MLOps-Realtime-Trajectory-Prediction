@@ -13,7 +13,7 @@
 </p>
 This project aims to forecast future trajectories of pedestrian in a scene. The trajectory prediction task works as follows: given the past observed trajectory of an agent the goal is to predict the future trajectory (coordinates) of the agent in subsequent frames. Following the literature norm, the prediction task is commonly tackled for 8 observed positions and 12 predicted positions. The time between two positions being 0.4s, we observe an agent moving during 3.2s and predict its movement for the next 4.8s. In order to generate robust realtime predictions we build a continious learning infrastructure which will have following components. 
 
-- ETL (Extract , Transform, Load) Pipline  
+- Data Ingestion and ETL (Extract , Transform, Load) Pipline  
 - Model Development (LSTM, GAN, VAE)
 - Deployment 
 - Realtime Inference
@@ -35,7 +35,7 @@ RTSP video streams are captured through openCV and are passed through pre-traine
 - Loading transformed data to target data store (mongodb/S3 etc) 
 
 
-    .
+<!--    .
     ├── airflow                   
       ├── ETL                    # source code for data extraction, transformation and storing.
       ├── dags                   # Dags for running ETL jobs 
@@ -45,7 +45,7 @@ RTSP video streams are captured through openCV and are passed through pre-traine
     ├── flask                     # code for inference
     ├── images                    
     ├── trajectory_prediction                  
-    └── README.md
+    └── README.md  -->
 
 ### Data Ingestion Job Orchestration using Apache Airflow 
 
