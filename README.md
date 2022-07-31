@@ -45,12 +45,18 @@ We capture RTSP video streams throuugh openCV and run Yolov5 and Deepsort for de
     ├── trajectory_prediction                  
     └── README.md
 
-### ETL Job Orchestration using Apache Airflow 
+### Data Ingestion Job Orchestration using Apache Airflow 
 
 <p align="center">
   <img width="1000" height="250" src="https://github.com/arsalhuda24/MLOps-Realtime-Trajectory-Prediction/blob/master/images/airflow_jobs.jpg">
 </p>
 
+### Data Staging in MongoDB
+When the scedhuled airflow jobs execute, it reads realtime camera feeds and runs object detection and tracking algorithms and store bounding box coordinates of pedestrians in Mongodb. 
+
+<p align="center">
+  <img width="1000" height="250" src="https://github.com/arsalhuda24/MLOps-Realtime-Trajectory-Prediction/blob/master/images/mongodb_snapshot.jpg">
+</p>
 
 
 ## Model Development 
