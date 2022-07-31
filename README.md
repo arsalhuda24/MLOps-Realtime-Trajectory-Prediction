@@ -48,7 +48,7 @@ We capture RTSP video streams throuugh openCV and run Yolov5 and Deepsort for de
 ### ETL Job Orchestration using Apache Airflow 
 
 <p align="center">
-  <img width="560" height="250" src="https://github.com/arsalhuda24/MLOps-Realtime-Trajectory-Prediction/blob/master/images/airflow_jobs.jpg">
+  <img width="500" height="400" src="https://github.com/arsalhuda24/MLOps-Realtime-Trajectory-Prediction/blob/master/images/airflow_jobs.jpg">
 </p>
 
 
