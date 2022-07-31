@@ -55,7 +55,7 @@ We capture RTSP video streams throuugh openCV and run Yolov5 and Deepsort for de
 When the scedhuled airflow jobs execute, it reads realtime camera feeds and runs object detection and tracking algorithms and store bounding box coordinates (bottom left) of pedestrians in Mongodb. 
 
 <p align="center">
-  <img width="1000" height="450" src="https://github.com/arsalhuda24/MLOps-Realtime-Trajectory-Prediction/blob/master/images/mongodb_snapshot.png">
+  <img width="1000" height="375" src="https://github.com/arsalhuda24/MLOps-Realtime-Trajectory-Prediction/blob/master/images/mongodb_snapshot.png">
 </p>
 
 
