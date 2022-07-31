@@ -29,7 +29,13 @@ This project aims to forecast future trajectories of pedestrian in a scene. The 
 
 - Follow this [link](https://www.hackerxone.com/2021/10/15/steps-to-install-and-setup-apache-airflow-on-ubuntu-20-04-lts/) to set up Apache Airflow. This will help to automate ETL tasks and load new stream of data into MongoDB
 
-We capture RTSP video streams throuugh openCV and run Yolov5 and Deepsort for detection and tracking of pedestrians in the scene. The image coordintaes are then transofrmed in to world coorinates by using homography matrix (I will post a sepetae tutorial on computing homography). After that, trajectory sequences are generated and stored in mongodb. This serves as a feature stroe for training prediciton models
+RTSP video streams are captured through openCV and are passed through pre-trained Yolov5 (detection) and Deepsort (tracking) models for all pedestrians in the scene. The metadata (bounding box coordinates, agent_ids and frames) is staged in mongodb after which ETL process starts which involves the following steps:
+
+- Data extraction from Mongodb 
+- Coordinate transformation (image to world) by applying perspective transformation.  
+- Generating trajectory sequences of pedestrians. This will be the input to trajectory prediction models. 
+- Loading transformed data to target data store (mongodb/S3 etc) 
+
 
 
 
