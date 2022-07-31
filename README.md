@@ -56,7 +56,7 @@ We capture RTSP video streams throuugh openCV and run Yolov5 and Deepsort for de
 ## Model Development 
 
 <p align="center">
-  <img width="800" height="350" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/models.png">
+  <img width="1000" height="350" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/models.png">
 </p>
 
 Ubuntu 20.04 python 3.8
