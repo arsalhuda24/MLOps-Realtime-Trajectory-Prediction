@@ -25,9 +25,7 @@ This project aims to forecast future trajectories of pedestrian in a scene. The 
   <img width="1000" height="220" src="https://github.com/arsalhuda24/Realtime-Trajectory-Prediction-AWS/blob/master/images/ingestion_etl_pipeline.jpg">
 </p>
 
-- Please follow this [link](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-20-04) to set up MongoDB and install MongoDB Compass client. 
-
-- Follow this [link](https://www.hackerxone.com/2021/10/15/steps-to-install-and-setup-apache-airflow-on-ubuntu-20-04-lts/) to set up Apache Airflow. This will help to automate ETL tasks and load new stream of data into MongoDB
+Please follow this [link](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-20-04) to set up MongoDB and this [link](https://www.hackerxone.com/2021/10/15/steps-to-install-and-setup-apache-airflow-on-ubuntu-20-04-lts/) to set up Apache Airflow. 
 
 RTSP video streams are captured through openCV and are passed through pre-trained Yolov5 (detection) and Deepsort (tracking) models for all pedestrians in the scene. The metadata (bounding box coordinates, agent_ids and frames) is staged in mongodb after which ETL process starts which involves the following steps:
 
@@ -35,8 +33,6 @@ RTSP video streams are captured through openCV and are passed through pre-traine
 - Coordinate transformation (image to world) by applying perspective transformation.  
 - Generating trajectory sequences of pedestrians. This will be the input to trajectory prediction models. 
 - Loading transformed data to target data store (mongodb/S3 etc) 
-
-
 
 
     .
